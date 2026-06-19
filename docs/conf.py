@@ -1,9 +1,11 @@
 # Configuration file for the Sphinx documentation builder.
 
-# -- Permite destacar as linhas das tabelas via .CSS
+import os
+import sys
 from docutils import nodes
 from docutils.parsers.rst import roles
 
+# -- Permite destacar as linhas das tabelas via .CSS
 def destaque_role(name, rawtext, text, lineno, inliner, options={}, content=[]):
     node = nodes.inline(text, text, classes=['linha-destaque'])
     return [node], []
@@ -64,10 +66,15 @@ templates_path = ['_templates']
 
 # -- Permite destacar as linhas "kbd" das tabelas via .CSS
 html_static_path = ['_static']
-html_css_files = ['custom.css',]
+html_css_files = ['custom.css']
 
 # -- Options for HTML output
-html_theme = 'sphinx_rtd_theme'
+# Tenta carregar o tema RTD; se falhar (não instalado), usa o tema nativo 'alabaster'
+try:
+    import sphinx_rtd_theme
+    html_theme = 'sphinx_rtd_theme'
+except ImportError:
+    html_theme = 'alabaster'
 
 # -- Options for EPUB output
 epub_show_urls = 'footnote'
@@ -78,6 +85,7 @@ latex_documents = [
      'Author', 'manual'),
 ]
 
+# Certifique-se de que este arquivo existe em seu diretório para evitar erros de compilação
 html_logo = "_static/img/logo-pncp-transparente-branco.png"
 
 html_theme_options = {
