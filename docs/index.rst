@@ -1,9 +1,24 @@
 Manual de Consulta do PNCP
-===========================
+==========================
 
-te documento técnico tem por finalidade orientar órgãos públicos, entidades integradoras, desenvolvedores e a sociedade civil na utilização das Interfaces de Programação de Aplicações (APIs) disponibilizadas pelo portal. As APIs de consulta permitem o consumo automatizado, padronizado e em tempo real de dados estruturados relativos a contratações, editais, atas de registro de preços, contratos e termos aditivos firmados em todo o território nacional.
+Este documento técnico tem por finalidade orientar órgãos públicos, entidades integradoras, desenvolvedores e a sociedade civil na utilização das Interfaces de Programação de Aplicações (APIs) disponibilizadas pelo portal. As APIs de consulta permitem o consumo automatizado, padronizado e em tempo real de dados estruturados relativos a contratações, editais, atas de registro de preços, contratos e termos aditivos firmados em todo o território nacional.
 
 Sumário
 --------
 
+<<<<<<< HEAD
 
+=======
+.. toctree::
+   :numbered:
+   :maxdepth: 3
+
+   objetivo.rst
+   protocolo_de_comunicacao/index
+   acesso_ao_pncp/index
+   recomendacoes_iniciais/index
+   tabelas_de_dominio/index
+   catalogo_de_servicos
+   suporte
+   glossario
+>>>>>>> 5b537965d518f2156f63db5d430d7cab7ba7800d
