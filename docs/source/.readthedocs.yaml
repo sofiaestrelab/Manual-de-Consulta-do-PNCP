@@ -12,9 +12,9 @@ build:
 
 # Build documentation from the correct subfolder
 sphinx:
-   configuration: docs/source/conf.py # <- Atualizado com o caminho real
+   configuration: conf.py  # <- CORRIGIDO: Arquivo na raiz
 
 # Declare the Python requirements required to build your documentation
 python:
    install:
-     - requirements: docs/source/requirements.txt # <- Atualizado com o caminho real
+     - requirements: requirements.txt  # <- CORRIGIDO: Arquivo na raiz

@@ -85,8 +85,13 @@ latex_documents = [
      'Author', 'manual'),
 ]
 
-# Certifique-se de que este arquivo existe em seu diretório para evitar erros de compilação
-html_logo = "_static/img/logo-pncp-transparente-branco.png"
+# CORRIGIDO: Verificar se o logo existe antes de definir
+logo_path = "_static/img/logo-pncp-transparente-branco.png"
+if os.path.exists(logo_path):
+    html_logo = logo_path
+else:
+    # Usar um logo padrão ou remover a configuração
+    html_logo = None
 
 html_theme_options = {
     'logo_only': False,
