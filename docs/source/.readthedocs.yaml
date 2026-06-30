@@ -10,11 +10,11 @@ build:
   tools:
     python: "3.13"
 
-# Build documentation directly from the root directory with Sphinx
+# Build documentation from the correct subfolder
 sphinx:
-   configuration: conf.py # <- Corrigido aqui (removido o "docs/")
+   configuration: docs/source/conf.py # <- Atualizado com o caminho real
 
 # Declare the Python requirements required to build your documentation
 python:
    install:
-     - requirements: requirements.txt # <- Ativado e apontando para a raiz
+     - requirements: docs/source/requirements.txt # <- Atualizado com o caminho real
