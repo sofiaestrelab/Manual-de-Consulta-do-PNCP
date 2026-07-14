@@ -1,11 +1,8 @@
 ﻿Acesso ao PNCP
 ==============
 
-3. Acesso ao PNCP
------------------
-
-3.1. Endereços de Acesso
-^^^^^^^^^^^^^^^^^^^^^^^^
+Endereços de Acesso
+------------------------
 
 A invocação dos serviços será realizada através das URLs citadas abaixo, conforme os requisitos de segurança detalhados na seção seguinte.
 
