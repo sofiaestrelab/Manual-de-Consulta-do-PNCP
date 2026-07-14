@@ -9,7 +9,6 @@ project = 'Manual de Consulta do PNCP'
 copyright = '2026, Ministério da Gestão e Inovação em Serviços Públicos - MGI'
 author = 'COPNCP/CGGES/DELOG/SEGES/MGI'
 
-# The full version, including alpha/beta/rc tags
 release = '2.0'
 version = '2.0'
 
@@ -32,19 +31,12 @@ html_static_path = ['_static']
 
 # -- Options for HTML output
 html_theme = 'sphinx_rtd_theme'
-html_theme_options = {
-    'navigation_depth': 4,
-}
 
-# -- Options for EPUB output
-epub_show_urls = 'footnote'
-
-# -- Options for singlehtml output
-singlehtml_show_toc = True
-
-# -- Exclude build files
+# -- Não incluir arquivos de build
 exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store']
+
+# -- Arquivo principal
+master_doc = 'index'
 
 # -- Source file patterns
 source_suffix = '.rst'
-master_doc = 'index'
