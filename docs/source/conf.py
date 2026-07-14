@@ -1,19 +1,17 @@
 # Configuration file for the Sphinx documentation builder.
 
-#-- Alterar a versão atual do manual em todas as páginas
-version = "2.0"
-
-rst_epilog = f"""
-.. |versao| replace:: {version}
-"""
+import os
+import sys
+sys.path.insert(0, os.path.abspath('.'))
 
 # -- Project information
 project = 'Manual de Consulta do PNCP'
 copyright = '2026, Ministério da Gestão e Inovação em Serviços Públicos - MGI'
 author = 'COPNCP/CGGES/DELOG/SEGES/MGI'
 
-release = 'v. 2.0'
-version = 'v. 2.0'
+# The full version, including alpha/beta/rc tags
+release = '2.0'
+version = '2.0'
 
 # -- General configuration
 extensions = [
@@ -25,6 +23,9 @@ extensions = [
     'sphinx_rtd_theme',
 ]
 
+# Language
+language = 'pt_BR'
+
 intersphinx_mapping = {
     'python': ('https://docs.python.org/3/', None),
     'sphinx': ('https://www.sphinx-doc.org/en/master/', None),
@@ -33,30 +34,19 @@ intersphinx_disabled_domains = ['std']
 
 templates_path = ['_templates']
 
-# -- Permite destacar as linhas "kbd" das tabelas via .CSS
-html_static_path = ['_static']
-html_css_files = ['custom.css',]
-
 # -- Options for HTML output
 html_theme = 'sphinx_rtd_theme'
+html_static_path = ['_static']
+html_css_files = ['custom.css']
 
 # -- Options for EPUB output
 epub_show_urls = 'footnote'
 
+# -- Options for singlehtml output
+singlehtml_show_toc = True
+
 # -- Options for PDF output
 latex_documents = [
-    ('index', 'project.tex', 'Project Documentation',
-     'Author', 'manual'),
+    ('index', 'manual-pncp.tex', 'Manual de Consulta do PNCP',
+     'COPNCP/CGGES/DELOG/SEGES/MGI', 'manual'),
 ]
-
-# html_logo = "_static/img/logo-pncp-transparente-branco.png"
-
-# html_theme_options = {
-#     'logo_only': False,
-#     'display_version': True,
-# }
-
-# Arquivo para injetar javascript
-# html_js_files = [
-#     ("readthedocs.js", {"defer": "defer"}),
-# ]
