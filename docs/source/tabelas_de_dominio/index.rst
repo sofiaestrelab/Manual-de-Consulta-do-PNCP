@@ -1,15 +1,12 @@
 ﻿Tabelas de Domínio
 ==================
 
-5. Tabelas de Domínio
----------------------
-
 A seguir são encontradas informações sobre as tabelas de domínio, ou seja,
 listas dados de interesse que contem valores fixos, usados em várias consultas que tem o
 intuito de auxiliar na realização e consultas.
 
-5.1. Instrumento Convocatório
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Instrumento Convocatório
+-------------------------
 
 - (código = 1) Edital: Instrumento convocatório utilizado no diálogo competitivo, concurso,
   concorrência, pregão, manifestação de interesse, pré-qualificação e credenciamento.
@@ -20,8 +17,8 @@ intuito de auxiliar na realização e consultas.
 - (código = 3) Ato que autoriza a Contratação Direta: Instrumento convocatório utilizado
   na Dispensa sem Disputa ou na Inexigibilidade.
 
-5.2. Modalidade de Contratação
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Modalidade de Contratação
+--------------------------
 
 - (código = 1) Leilão - Eletrônico
 - (código = 2) Diálogo Competitivo
@@ -37,8 +34,8 @@ intuito de auxiliar na realização e consultas.
 - (código = 12) Credenciamento
 - (código = 13) Leilão - Presencial
 
-5.3. Modo de Disputa
-~~~~~~~~~~~~~~~~~~~~
+Modo de Disputa
+----------------
 
 - (código = 1) Aberto
 - (código = 2) Fechado
@@ -47,8 +44,8 @@ intuito de auxiliar na realização e consultas.
 - (código = 5) Não se aplica
 - (código = 6) Fechado-Aberto
 
-5.4. Critério de Julgamento
-~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Critério de Julgamento
+-----------------------
 
 - (código = 1) Menor preço
 - (código = 2) Maior desconto
@@ -59,8 +56,8 @@ intuito de auxiliar na realização e consultas.
 - (código = 8) Melhor técnica
 - (código = 9) Conteúdo artístico
 
-5.5. Situação da Contratação
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Situação da Contratação
+------------------------
 
 - (código = 1) Divulgada no PNCP: Contratação divulgada no PNCP. Situação atribuída na
   inclusão da contratação.
@@ -71,8 +68,8 @@ intuito de auxiliar na realização e consultas.
 
 - (código = 4) Suspensa: Contratação suspensa conforme justificativa.
 
-5.6. Situação do Item da Contratação
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Situação do Item da Contratação
+-------------------------------
 
 - (código = 1) Em Andamento: Item com disputa/seleção do fornecedor/arrematante não
   finalizada. Situação atribuída na inclusão do item da contratação.
@@ -86,8 +83,8 @@ intuito de auxiliar na realização e consultas.
 - (código = 5) Fracassado: Item sem resultado (fornecedores/arrematantes desclassificados
   ou inabilitados)
 
-5.7. Tipo de Benefício
-~~~~~~~~~~~~~~~~~~~~~~
+Tipo de Benefício
+-----------------
 
 - (código = 1) Participação exclusiva para ME/EPP
 
@@ -99,16 +96,16 @@ intuito de auxiliar na realização e consultas.
 
 - (código = 5) Não se aplica
 
-5.8. Situação do Resultado do Item da Contratação
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Situação do Resultado do Item da Contratação
+---------------------------------------------
 
 - (código = 1) Informado: Que possui valor e fornecedor e marca oriundo do resultado da
   contratação. Situação atribuída na inclusão do resultado do item da contratação.
 
 - (código = 2) Cancelado: Resultado do item cancelado conforme justificativa.
 
-5.9. Tipo de Contrato
-~~~~~~~~~~~~~~~~~~~~~
+Tipo de Contrato
+----------------
 
 - (código = 1) Contrato (termo inicial): Acordo formal recíproco de vontades firmado entre
   as partes
@@ -144,8 +141,8 @@ intuito de auxiliar na realização e consultas.
 - (código = 12) Carta Contrato: Documento que formaliza e ratifica acordo entre duas ou
   mais partes nas hipóteses em que a lei dispensa a celebração de um contrato
 
-5.10. Tipo de Termo de Contrato
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Tipo de Termo de Contrato
+-------------------------
 
 - (código = 1) Termo de Rescisão: Encerramento é antes da data final do contrato.
 
@@ -154,8 +151,8 @@ intuito de auxiliar na realização e consultas.
 
 - (código = 3) Termo de Apostilamento: Atualiza o valor do contrato.
 
-5.11. Categoria do Processo
-~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Categoria do Processo
+----------------------
 
 - (código = 1) Cessão
 
@@ -179,8 +176,8 @@ intuito de auxiliar na realização e consultas.
 
 - (código = 11) Alienação de bens móveis/imóveis
 
-5.12. Tipo de Documento
-~~~~~~~~~~~~~~~~~~~~~~~
+Tipo de Documento
+------------------
 
 Tipos de documentos da contratação:
 
@@ -226,8 +223,8 @@ Tipos de documentos de contrato:
 
 ** Para outros documentos do processo usar o código 16.
 
-5.13. Natureza Jurídica
-~~~~~~~~~~~~~~~~~~~~~~~
+Natureza Jurídica
+------------------
 
 Código - Natureza jurídica
 
@@ -413,8 +410,8 @@ Código - Natureza jurídica
 
 - 8885 - Natureza Jurídica não informada
 
-5.14. Porte da Empresa
-~~~~~~~~~~~~~~~~~~~~~~
+Porte da Empresa
+-----------------
 
 - (código = 1) ME: Microempresa
 
@@ -426,8 +423,8 @@ Código - Natureza jurídica
 
 - (código = 5) Não informado: Quando não possuir o porte da empresa.
 
-5.15. Amparo Legal
-~~~~~~~~~~~~~~~~~~
+Amparo Legal
+------------
 
 - (código = 1) Lei 14.133/2021, Art. 28, I
 
@@ -589,8 +586,8 @@ Código - Natureza jurídica
 
 - (Código = 80) Lei 14.133/2021, Art. 1º, § 2º
 
-5.16. Categoria do Item do Plano de Contratações
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Categoria do Item do Plano de Contratações
+-------------------------------------------
 
 - (código = 1) Material
 
@@ -608,8 +605,8 @@ Código - Natureza jurídica
 
 - (código = 8) Obras e Serviços de Engenharia
 
-5.17. Identificador de Usuário
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Identificador de Usuário
+-------------------------
 
 Para uso de algumas APIs pode ser necessário incluir o Identificador Único do
 portal ou sistema integrado (idUsuario). Essa informação pode ser encontrada acessando o
