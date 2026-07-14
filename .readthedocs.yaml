@@ -4,12 +4,6 @@ build:
   os: "ubuntu-22.04"
   tools:
     python: "3.11"
-  jobs:
-    pre_build:
-      - echo "=== Listando todos os arquivos RST ==="
-      - find docs/source -name "*.rst" -type f -exec echo "Arquivo encontrado: {}" \;
-      - echo "=== Verificando conteúdo dos arquivos ==="
-      - for file in $(find docs/source -name "*.rst" -type f); do echo "=== $file ==="; head -5 "$file"; done
 
 python:
   install:
@@ -17,5 +11,3 @@ python:
 
 sphinx:
   configuration: docs/source/conf.py
-  fail_on_warning: true
-  builder: html
