@@ -1,7 +1,7 @@
-# Configuration file for the Sphinx documentation builder.
-
 import os
 import sys
+
+# Adiciona o diretório atual ao path
 sys.path.insert(0, os.path.abspath('.'))
 
 # -- Project information
@@ -26,18 +26,15 @@ extensions = [
 # Language
 language = 'pt_BR'
 
-intersphinx_mapping = {
-    'python': ('https://docs.python.org/3/', None),
-    'sphinx': ('https://www.sphinx-doc.org/en/master/', None),
-}
-intersphinx_disabled_domains = ['std']
-
+# Caminhos
 templates_path = ['_templates']
+html_static_path = ['_static']
 
 # -- Options for HTML output
 html_theme = 'sphinx_rtd_theme'
-html_static_path = ['_static']
-html_css_files = ['custom.css']
+html_theme_options = {
+    'navigation_depth': 4,
+}
 
 # -- Options for EPUB output
 epub_show_urls = 'footnote'
@@ -45,8 +42,9 @@ epub_show_urls = 'footnote'
 # -- Options for singlehtml output
 singlehtml_show_toc = True
 
-# -- Options for PDF output
-latex_documents = [
-    ('index', 'manual-pncp.tex', 'Manual de Consulta do PNCP',
-     'COPNCP/CGGES/DELOG/SEGES/MGI', 'manual'),
-]
+# -- Exclude build files
+exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store']
+
+# -- Source file patterns
+source_suffix = '.rst'
+master_doc = 'index'

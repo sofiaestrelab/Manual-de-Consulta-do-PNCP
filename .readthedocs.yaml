@@ -5,16 +5,19 @@ build:
   tools:
     python: "3.11"
   jobs:
-    post_build:
-      # Cria a pasta para a página única dentro do diretório de saída HTML
-      - mkdir -p $READTHEDOCS_OUTPUT/html/singlehtml/
-      # CORREÇÃO: Adicionado "-D language=pt_BR" para forçar a tradução das diretivas
-      - sphinx-build -b singlehtml -D language=pt_BR docs/source/ $READTHEDOCS_OUTPUT/html/singlehtml/
+    pre_build:
+      - echo "=== Verificando estrutura de arquivos ==="
+      - ls -la docs/source/
+      - echo "=== Subdiretórios ==="
+      - ls -la docs/source/protocolo_de_comunicacao/ || echo "protocolo_de_comunicacao não encontrado"
+      - ls -la docs/source/acesso_ao_pncp/ || echo "acesso_ao_pncp não encontrado"
+      - echo "=== Verificando arquivos RST ==="
+      - find docs/source -name "*.rst" -type f
 
-# Configuração do Sphinx
 python:
   install:
-    - requirements: docs/requirements.txt  
+    - requirements: docs/requirements.txt
 
 sphinx:
   configuration: docs/source/conf.py
+  fail_on_warning: false
