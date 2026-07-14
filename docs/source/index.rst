@@ -7,6 +7,7 @@ Este documento técnico tem por finalidade orientar órgãos públicos, entidade
    :maxdepth: 3
    :numbered:
 
+   formatos_de_visualizacao
    objetivo
    protocolo_de_comunicacao/index
    acesso_ao_pncp/index
