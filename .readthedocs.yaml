@@ -6,13 +6,10 @@ build:
     python: "3.11"
   jobs:
     pre_build:
-      - echo "=== Verificando estrutura de arquivos ==="
-      - ls -la docs/source/
-      - echo "=== Subdiretórios ==="
-      - ls -la docs/source/protocolo_de_comunicacao/ || echo "protocolo_de_comunicacao não encontrado"
-      - ls -la docs/source/acesso_ao_pncp/ || echo "acesso_ao_pncp não encontrado"
-      - echo "=== Verificando arquivos RST ==="
-      - find docs/source -name "*.rst" -type f
+      - echo "=== Listando todos os arquivos RST ==="
+      - find docs/source -name "*.rst" -type f -exec echo "Arquivo encontrado: {}" \;
+      - echo "=== Verificando conteúdo dos arquivos ==="
+      - for file in $(find docs/source -name "*.rst" -type f); do echo "=== $file ==="; head -5 "$file"; done
 
 python:
   install:
@@ -20,4 +17,5 @@ python:
 
 sphinx:
   configuration: docs/source/conf.py
-  fail_on_warning: false
+  fail_on_warning: true
+  builder: html
