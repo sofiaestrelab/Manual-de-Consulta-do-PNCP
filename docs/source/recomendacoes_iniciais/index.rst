@@ -17,35 +17,35 @@ Conforme a composição descrita a seguir.
 
 **Número de Controle do PCA**
 
-``id pca pncp``
+id pca pncp
 
-**Máscara:** ``99999999999999-0-999999/9999``
+**Máscara:** 99999999999999-0-999999/9999
 
 Cada PCA receberá um número de controle composto por:
 
 - CNPJ do órgão/entidade do PCA (14 dígitos);
-- Dígito ``0`` — marcador que indica tratar-se de um Plano de Contratação Anual;
+- Dígito 0 — marcador que indica tratar-se de um Plano de Contratação Anual;
 - Número sequencial do Plano no PNCP*;
 - Ano do Plano (4 dígitos).
 
 **Número de Controle da Contratação**
 
-``id contratacao pncp``
+id contratacao pncp
 
-**Máscara:** ``99999999999999-1-999999/9999``
+**Máscara:** 99999999999999-1-999999/9999
 
 Cada contratação receberá um número de controle composto por:
 
 - CNPJ do órgão/entidade da contratação (14 dígitos);
-- Dígito ``1`` — marcador que indica tratar-se de uma contratação;
+- Dígito 1 — marcador que indica tratar-se de uma contratação;
 - Número sequencial da contratação no PNCP*;
 - Ano da contratação (4 dígitos).
 
 **Número de Controle da Ata**
 
-``id ata pncp``
+id ata pncp
 
-**Máscara:** ``99999999999999-1-999999/9999-999999``
+**Máscara:** 99999999999999-1-999999/9999-999999
 
 Cada ata receberá um número de controle composto por:
 
@@ -54,14 +54,14 @@ Cada ata receberá um número de controle composto por:
 
 **Número de Controle do Contrato**
 
-``id contrato pncp``
+id contrato pncp
 
-**Máscara:** ``99999999999999-2-999999/9999``
+**Máscara:** 99999999999999-2-999999/9999
 
 Cada contrato receberá um número de controle composto por:
 
 - CNPJ do órgão/entidade do contrato (14 dígitos);
-- Dígito ``2`` — marcador que indica tratar-se de um contrato;
+- Dígito 2 — marcador que indica tratar-se de um contrato;
 - Número sequencial do contrato no PNCP*;
 - Ano do contrato (4 dígitos).
 
@@ -95,26 +95,26 @@ Dados de retorno
      - Tipo
      - Descrição
    * - 1
-     - ``data``
+     - data
      - Vetor
      - Vetor com os dados dos registros encontrados.
    * - 2
-     - ``totalRegistros``
+     - totalRegistros
      - Inteiro
      - Total de registros encontrados.
    * - 3
-     - ``totalPaginas``
+     - totalPaginas
      - Inteiro
      - Total de páginas necessárias para a obtenção de todos os registros.
    * - 4
-     - ``numeroPagina``
+     - numeroPagina
      - Inteiro
      - Número da página em que a consulta foi realizada.
    * - 5
-     - ``paginasRestantes``
+     - paginasRestantes
      - Inteiro
      - Total de páginas restantes.
    * - 6
-     - ``empty``
+     - empty
      - Booleano
      - Indica se o atributo ``data`` está vazio.
