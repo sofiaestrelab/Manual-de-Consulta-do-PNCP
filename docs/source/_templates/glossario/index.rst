@@ -1,4 +1,0 @@
-Glossário
-=========
-
-Conteúdo do glossário.

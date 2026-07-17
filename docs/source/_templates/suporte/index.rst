@@ -1,4 +1,0 @@
-Suporte
-=======
-
-Conteúdo do suporte.
