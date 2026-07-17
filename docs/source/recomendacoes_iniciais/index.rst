@@ -117,4 +117,4 @@ Dados de retorno
    * - 6
      - empty
      - Booleano
-     - Indica se o atributo ``data`` está vazio.
+     - Indica se o atributo data está vazio.
