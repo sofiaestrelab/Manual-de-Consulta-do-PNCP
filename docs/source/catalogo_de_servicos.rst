@@ -86,3 +86,6 @@ Dados de entrada
      - Não
      - Por padrão cada página contém no máximo 500 registros, no entanto o tamanho de registros em cada página pode ser ajustado (até o limite de 500 registros) com vistas a tornar a entrega de dados mais rápida.
 
+Dados de retorno
+~~~~~~~~~~~~~~~~
+
