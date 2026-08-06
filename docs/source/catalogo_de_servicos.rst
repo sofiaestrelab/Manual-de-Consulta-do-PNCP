@@ -283,7 +283,7 @@ Dados de entrada
 
 .. note::
 
-   Alimentar o parâmetro {ano} na URL.
+   Alimentar o parâmetro ``{ano}`` na URL.
 
 .. list-table::
    :width: 100%
