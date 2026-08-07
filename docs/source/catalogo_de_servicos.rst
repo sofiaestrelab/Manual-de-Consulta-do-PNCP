@@ -1317,3 +1317,134 @@ Dados de entrada
      - Não
      - Por padrão cada página contém no máximo 500 registros. O tamanho da página pode ser ajustado (até o limite de 500 registros) para tornar a entrega dos dados mais rápida.
 
+Dados de retorno
+~~~~~~~~~~~~~~~~
+
+.. list-table::
+   :width: 100%
+   :widths: auto
+   :header-rows: 1
+
+   * - Id
+     - Campo
+     - Tipo
+     - Descrição
+   * - 1
+     - Atas
+     - Agrupador
+     - Agrupador da lista de atas
+   * - 1.1
+     - numeroControlePNCPAta
+     - String
+     - Número de Controle PNCP da Ata (id Ata PNCP)
+   * - 1.2
+     - numeroControlePNCPCompra
+     - String
+     - Número de Controle PNCP da Contratação (id Contratação PNCP) que a ata está vinculada
+   * - 1.3
+     - numeroAtaRegistroPreco
+     - Texto (50)
+     - Número da Ata no sistema de origem
+   * - 1.4
+     - anoAta
+     - Inteiro
+     - Ano da Ata
+   * - 1.5
+     - dataAssinatura
+     - Data
+     - Data de assinatura da Ata
+   * - 1.6
+     - vigenciaInicio
+     - Data
+     - Data de início de vigência da Ata
+   * - 1.7
+     - vigenciaFim
+     - Data
+     - Data de fim de vigência da Ata
+   * - 1.8
+     - dataCancelamento
+     - Data
+     - Data de cancelamento da Ata
+   * - 1.9
+     - cancelado
+     - Booleano
+     - Indicador de cancelamento da Ata
+   * - 1.10
+     - dataPublicacaoPncp
+     - Data
+     - Data da publicação da Ata no PNCP
+   * - 1.11
+     - dataInclusao
+     - Data
+     - Data da inclusão do registro da Ata no PNCP
+   * - 1.12
+     - dataAtualizacao
+     - Data
+     - Data da última atualização do registro da Ata
+   * - 1.13
+     - objetoContratacao
+     - String
+     - Descrição do Objeto referente à Contratação
+   * - 1.14
+     - cnpjOrgao
+     - String
+     - CNPJ do Órgão referente à Contratação
+   * - 1.15
+     - nomeOrgao
+     - String
+     - Razão Social do Órgão referente à Contratação
+   * - 1.16
+     - codigoUnidadeOrgao
+     - String
+     - Código da Unidade Administrativa do Órgão referente à Contratação
+   * - 1.17
+     - nomeUnidadeOrgao
+     - String
+     - Nome da Unidade Administrativa do Órgão referente à Contratação
+   * - 1.18
+     - cnpjOrgaoSubrogado
+     - String
+     - CNPJ do Órgão subrogado referente à Contratação
+   * - 1.19
+     - nomeOrgaoSubrogado
+     - String
+     - Razão Social do Órgão subrogado referente à Contratação
+   * - 1.20
+     - codigoUnidadeOrgaoSubrogado
+     - String
+     - Código da Unidade Administrativa subrogada do Órgão subrogado referente à Contratação
+   * - 1.21
+     - nomeUnidadeOrgaoSubrogado
+     - String
+     - Nome da Unidade Administrativa subrogada do Órgão subrogado referente à Contratação
+   * - 1.22
+     - usuario
+     - String
+     - Nome do sistema usuário (Sistema de Contratações Públicas) que publicou a ata.
+
+Códigos de Retorno
+~~~~~~~~~~~~~~~~~~
+
+.. list-table::
+   :width: 100%
+   :widths: auto
+   :header-rows: 1
+
+   * - Código HTTP
+     - Mensagem
+     - Tipo
+   * - 200
+     - OK
+     - Sucesso
+   * - 204
+     - No Content
+     - Sucesso
+   * - 400
+     - Bad Request
+     - Erro
+   * - 422
+     - Unprocessable Entity
+     - Erro
+   * - 500
+     - Internal Server Error
+     - Erro
