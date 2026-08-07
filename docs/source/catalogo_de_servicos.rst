@@ -1196,3 +1196,124 @@ Códigos de Retorno
    * - 500
      - Internal Server Error
      - Erro
+
+Observação
+~~~~~~~~~~
+
+Em adição ao serviço **6.4. Serviço Consultar Contratações com Período de Recebimento de Propostas em Aberto** mencionado neste manual, é importante destacar que o Portal Nacional de Contratações Públicas (PNCP) oferece uma gama ampla de funcionalidades via API que permitem uma consulta detalhada sobre **Contratações**.
+
+Essas funcionalidades estão descritas no **Manual de Integração — Portal Nacional de Contratações Públicas (PNCP)**, disponível no site oficial do Governo Federal.
+
+Alguns exemplos de serviços disponíveis são:
+
+- 6.3.5. Consultar uma Contratação
+- 6.3.8. Consultar Todos os Documentos de uma Contratação
+- 6.3.13. Consultar Itens de uma Contratação
+- 6.3.14. Consultar Item de uma Contratação
+- 6.3.17. Consultar Resultados de Item de uma Contratação
+- 6.3.18. Consultar um Resultado Específico de Item de uma Contratação
+- 6.3.19. Consultar Histórico da Contratação
+- 6.3.22. Consultar Imagens de um Item de Contratação
+
+Recomenda-se a leitura detalhada do Manual de Integração do PNCP para uma compreensão abrangente de todas as funcionalidades e possibilidades oferecidas pela API.
+
+6.5. Serviço Consultar Atas de Registro de Preço por Período de Vigência
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Serviço que permite consultar Atas de Registro de Preços publicadas no PNCP por um período informado.
+
+A partir da data inicial e da data final informadas, serão recuperadas as atas cujo período de vigência coincida com o período informado. Opcionalmente poderá ser informado o CNPJ do Órgão/Entidade, o código da Unidade Administrativa do Órgão/Entidade ou o número de identificação do usuário (Portais de Contratações Públicas).
+
+Detalhes da Requisição
+~~~~~~~~~~~~~~~~~~~~~~
+
+.. list-table::
+   :width: 100%
+   :widths: auto
+   :header-rows: 1
+
+   * - Endpoint
+     - Método HTTP
+   * - /v1/atas
+     - GET
+
+Exemplo de Payload
+~~~~~~~~~~~~~~~~~~
+
+.. code-block:: json
+   :linenos:
+
+   Não se aplica
+
+Exemplo de Requisição (cURL)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+.. code-block:: bash
+   :linenos:
+
+   curl -X 'GET' \
+     '${BASE_URL}/v1/atas?dataInicial=20230701&dataFinal=20230831&pagina=1' \
+     -H 'accept: */*'
+
+Ou:
+
+.. code-block:: bash
+   :linenos:
+
+   curl -X 'GET' \
+     '${BASE_URL}/v1/atas?dataInicial=20231024&dataFinal=20241023&idUsuario=36&cnpjOrgao=00394429000100&pagina=1' \
+     -H 'accept: */*'
+
+Dados de entrada
+~~~~~~~~~~~~~~~~
+
+.. note::
+
+   Dados a serem enviados no cabeçalho da requisição.
+
+.. list-table::
+   :width: 100%
+   :widths: auto
+   :header-rows: 1
+
+   * - Id
+     - Campo
+     - Tipo
+     - Obrigatório
+     - Descrição
+   * - 1
+     - dataInicial
+     - Data
+     - Sim
+     - Data inicial do período a ser consultado no formato AAAAMMDD.
+   * - 2
+     - dataFinal
+     - Data
+     - Sim
+     - Data final do período a ser consultado no formato AAAAMMDD.
+   * - 3
+     - idUsuario
+     - Inteiro
+     - Não
+     - Identificador do sistema usuário (Sistema de Contratações Públicas) que publicou a ata.
+   * - 4
+     - cnpj
+     - String
+     - Não
+     - CNPJ do órgão originário da contratação informado na inclusão (proprietário da contratação).
+   * - 5
+     - codigoUnidadeAdministrativa
+     - String
+     - Não
+     - Código da Unidade Administrativa do Órgão originário da contratação informado na inclusão (proprietário da contratação).
+   * - 6
+     - pagina
+     - Inteiro
+     - Sim
+     - Número da página que se deseja obter os dados.
+   * - 7
+     - tamanhoPagina
+     - Inteiro
+     - Não
+     - Por padrão cada página contém no máximo 500 registros. O tamanho da página pode ser ajustado (até o limite de 500 registros) para tornar a entrega dos dados mais rápida.
+
