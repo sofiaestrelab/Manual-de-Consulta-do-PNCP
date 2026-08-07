@@ -1198,7 +1198,7 @@ Códigos de Retorno
      - Erro
 
 Observação
-~~~~~~~~~~
+----------
 
 Em adição ao serviço **6.4. Serviço Consultar Contratações com Período de Recebimento de Propostas em Aberto** mencionado neste manual, é importante destacar que o Portal Nacional de Contratações Públicas (PNCP) oferece uma gama ampla de funcionalidades via API que permitem uma consulta detalhada sobre **Contratações**.
 
@@ -1218,7 +1218,7 @@ Alguns exemplos de serviços disponíveis são:
 Recomenda-se a leitura detalhada do Manual de Integração do PNCP para uma compreensão abrangente de todas as funcionalidades e possibilidades oferecidas pela API.
 
 6.5. Serviço Consultar Atas de Registro de Preço por Período de Vigência
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+------------------------------------------------------------------------
 
 Serviço que permite consultar Atas de Registro de Preços publicadas no PNCP por um período informado.
 
