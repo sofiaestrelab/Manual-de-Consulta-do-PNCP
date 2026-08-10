@@ -1,6 +1,3 @@
-.. role:: destaque-amarelo-claro
-   :class: destaque-amarelo-claro
-
 Catálogo de Serviços
 ====================
 
