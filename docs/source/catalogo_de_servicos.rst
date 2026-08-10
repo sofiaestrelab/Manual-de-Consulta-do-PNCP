@@ -1,4 +1,7 @@
-﻿Catálogo de Serviços
+.. role:: destaque-amarelo-claro
+   :class: destaque-amarelo-claro
+
+Catálogo de Serviços
 ====================
 
 Consultar Itens de PCA por Ano, idUsuario e Classificação Superior
