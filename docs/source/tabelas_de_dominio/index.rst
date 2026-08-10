@@ -282,7 +282,8 @@ Porte da Empresa
 - (código = 4) **Não se aplica:** Quando o fornecedor/arrematante for pessoa física.
 - (código = 5) **Não informado:** Quando não possuir o porte da empresa.
 
-## Amparo Legal
+Amparo Legal
+------------
 
 * (código = 1) **Lei 14.133/2021, Art. 28, I**
 * (código = 2) **Lei 14.133/2021, Art. 28, II**
@@ -383,7 +384,7 @@ Identificador de Usuário
 Para uso de algumas APIs pode ser necessário incluir o Identificador Único do
 portal ou sistema integrado (idUsuario). Essa informação pode ser encontrada acessando o
 sítio: Portais Integrados ao PNCP — Portal Nacional de Contratações Públicas - PNCP
-(www.gov.br) e clicando em "Pesquisa ID" conforme imagem a seguir:
+([www.gov.br](http://www.gov.br)) e clicando em "Pesquisa ID" conforme imagem a seguir:
 
 .. image:: docs/_static/img/portais-integrados-ao-pncp
 
