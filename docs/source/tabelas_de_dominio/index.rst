@@ -385,4 +385,5 @@ portal ou sistema integrado (idUsuario). Essa informação pode ser encontrada a
 sítio: Portais Integrados ao PNCP — Portal Nacional de Contratações Públicas - PNCP
 (www.gov.br) e clicando em "Pesquisa ID" conforme imagem a seguir:
 
+.. image:: docs/_static/img/portais-integrados-ao-pncp
 
