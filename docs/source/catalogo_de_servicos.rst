@@ -48,7 +48,6 @@ Dados de entrada
    :width: 100%
    :widths: auto
    :header-rows: 1
-   :class: quebra-linha-ultima-coluna
 
    * - Id
      - Campo
@@ -93,7 +92,6 @@ Dados de retorno
    :width: 100%
    :widths: 5 25 15 55
    :header-rows: 1
-   :class: quebra-linha-ultima-coluna
 
    * - Id
      - Campo
@@ -597,10 +595,10 @@ Dados de retorno
      - Campo
      - Tipo
      - Descrição
-   * - :destaque-amarelo-claro:`1`
-     - :destaque-amarelo-claro:`numeroControlePNCP`
-     - :destaque-amarelo-claro:`String`
-     - :destaque-amarelo-claro:`Número de Controle PNCP da Contratação (id Contratação PNCP)`
+   * - 1
+     - numeroControlePNCP
+     - String
+     - Número de Controle PNCP da Contratação (id Contratação PNCP)
    * - 2
      - numeroCompra
      - Texto (50)
@@ -921,11 +919,11 @@ Dados de entrada
      - String
      - Não
      - CNPJ do órgão originário da contratação informado na inclusão (proprietário da contratação).
-   * - :destaque-amarelo-claro:`6`
-     - :destaque-amarelo-claro:`codigoUnidadeAdministrativa`
-     - :destaque-amarelo-claro:`String`
-     - :destaque-amarelo-claro:`Não`
-     - :destaque-amarelo-claro:`Código da Unidade Administrativa do Órgão originário da contratação informado na inclusão (proprietário da contratação).`
+   * - 6
+     - codigoUnidadeAdministrativa
+     - String
+     - Não
+     - Código da Unidade Administrativa do Órgão originário da contratação informado na inclusão (proprietário da contratação).
    * - 7
      - idUsuario
      - Inteiro
@@ -1297,16 +1295,16 @@ Dados de entrada
      - Inteiro
      - Não
      - Identificador do sistema usuário (Sistema de Contratações Públicas) que publicou a ata.
-   * - :destaque-amarelo-claro:`4`
-     - :destaque-amarelo-claro:`cnpj`
-     - :destaque-amarelo-claro:`String`
-     - :destaque-amarelo-claro:`Não`
-     - :destaque-amarelo-claro:`CNPJ do órgão originário da contratação informado na inclusão (proprietário da contratação).`
-   * - :destaque-amarelo-claro:`5`
-     - :destaque-amarelo-claro:`codigoUnidadeAdministrativa`
-     - :destaque-amarelo-claro:`String`
-     - :destaque-amarelo-claro:`Não`
-     - :destaque-amarelo-claro:`Código da Unidade Administrativa do Órgão originário da contratação informado na inclusão (proprietário da contratação).`
+   * - 4`
+     - cnpj
+     - String
+     - Não
+     - CNPJ do órgão originário da contratação informado na inclusão (proprietário da contratação).
+   * - 5
+     - codigoUnidadeAdministrativa
+     - String
+     - Não
+     - Código da Unidade Administrativa do Órgão originário da contratação informado na inclusão (proprietário da contratação).
    * - 6
      - pagina
      - Inteiro
@@ -1334,10 +1332,10 @@ Dados de retorno
      - Atas
      - Agrupador
      - Agrupador da lista de atas
-   * - :destaque-amarelo-claro:`1.1`
-     - :destaque-amarelo-claro:`numeroControlePNCPAta`
-     - :destaque-amarelo-claro:`String`
-     - :destaque-amarelo-claro:`Número de Controle PNCP da Ata (id Ata PNCP)`
+   * - 1.1
+     - numeroControlePNCPAta
+     - String
+     - Número de Controle PNCP da Ata (id Ata PNCP)
    * - 1.2
      - numeroControlePNCPCompra
      - String
@@ -1533,11 +1531,11 @@ Dados de entrada
      - String
      - Não
      - CNPJ do órgão originário da contratação informado na inclusão (proprietário do contrato)
-   * - :destaque-amarelo-claro:`4`
-     - :destaque-amarelo-claro:`codigoUnidadeAdministrativa`
-     - :destaque-amarelo-claro:`String`
-     - :destaque-amarelo-claro:`Não`
-     - :destaque-amarelo-claro:`Código da Unidade Administrativa do Órgão originário da contratação informado na inclusão (proprietário do contrato)`
+   * - 4
+     - codigoUnidadeAdministrativa
+     - String
+     - Não
+     - Código da Unidade Administrativa do Órgão originário da contratação informado na inclusão (proprietário do contrato)
    * - 5
      - usuarioId
      - Inteiro
@@ -1566,10 +1564,10 @@ Dados de retorno
      - Campo
      - Tipo
      - Descrição
-   * - :destaque-amarelo-claro:`1`
-     - :destaque-amarelo-claro:`numeroControlePNCP`
-     - :destaque-amarelo-claro:`String`
-     - :destaque-amarelo-claro:`Número de controle PNCP do contrato (id contrato PNCP)`
+   * - 1
+     - numeroControlePNCP
+     - String
+     - Número de controle PNCP do contrato (id contrato PNCP)
    * - 2
      - numeroControlePNCPCompra
      - String
