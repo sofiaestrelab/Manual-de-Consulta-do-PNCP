@@ -1,39 +1,34 @@
 /* Remove o limite de largura máxima do contêiner principal */
-.wy-nav-content-wrap {
+/* .wy-nav-content-wrap {
     max-width: none !important;
 }
-
+*/
 .wy-nav-content {
     max-width: 100% !important;
     margin: auto !important;
 }
 
-/* Layout com rolagem independente no desktop */
 @media screen and (min-width: 768px) {
-
-    /* 1. Força a estrutura principal a ocupar a tela inteira */
-    html,
-    body,
-    .wy-grid-for-nav {
+    /* 1. Força a estrutura principal a ocupar a tela inteira sem rolar o site todo */
+    html, body, .wy-grid-for-nav {
         height: 100vh !important;
         overflow: hidden !important;
     }
 
-    /* 2. Mantém o menu lateral fixo na altura da tela,
-       com sua própria rolagem se necessário */
+    /* 2. Mantém o menu lateral esquerdo fixo na altura da tela, com sua própria rolagem se necessário */
     .wy-nav-side {
         height: 100vh !important;
         overflow-y: auto !important;
-        position: fixed !important;
+        position: absolute !important;
         top: 0 !important;
         left: 0 !important;
     }
 
-    /* 3. Transforma o conteúdo na única área que rola no desktop */
+    /* 3. TRANSFORMA O CONTEÚDO NA ÚNICA ÁREA QUE ROLA NO SITE */
     .wy-nav-content-wrap {
         height: 100vh !important;
-        overflow-y: auto !important;
-        background: #fcfcfc !important;
+        overflow-y: auto !important; /* Cria a barra de rolagem apenas aqui */
+        background: #fcfcfc !important; /* Mantém o fundo padrão */
     }
 
     /* 4. Garante que o topo de navegação mobile não apareça no desktop */
@@ -42,20 +37,18 @@
     }
 }
 
-/* Destaque para elementos */
 kbd {
-    background-color: #fff3cd !important;
-    color: #000 !important;
+  background-color: #fff3cd !important;
+  color: #000 !important;
 }
 
-/* Destaque amarelo claro */
-.destaque-amarelo-claro {
-    background-color: #FBEC5D !important;
-    color: #000 !important;
+/* destaque laranja */
+.destaque-amarelo {
+    background-color: #F9B066;
+    padding: 10px;
+    border-left: 5px solid #ffc107;
     border-radius: 4px;
-    text-align: justify;
-    padding: 2px 6px;
-    display: inline;
+    text-align: justify;    
 }
 
 /* Quebra a linha das colunas 2, 4 e 5 */
