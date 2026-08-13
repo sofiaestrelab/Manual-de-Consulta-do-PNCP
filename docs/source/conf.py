@@ -9,7 +9,8 @@ from docutils.parsers.rst import roles
 def destaque_amarelo_role(name, rawtext, text, lineno, inliner, options={}, content=[]):
     node = nodes.inline(rawtext, text, classes=['destaque-amarelo'])
     return [node], []
-    
+
+roles.register_local_role('destaque-amarelo', destaque_amarelo_role)
 
 # Adiciona o diretório atual ao path
 sys.path.insert(0, os.path.abspath('.'))
