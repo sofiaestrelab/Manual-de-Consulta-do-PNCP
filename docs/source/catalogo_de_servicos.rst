@@ -595,10 +595,10 @@ Dados de retorno
      - Campo
      - Tipo
      - Descrição
-   * - 1
-     - numeroControlePNCP
-     - String
-     - Número de Controle PNCP da Contratação (id Contratação PNCP)
+   * - :destaque-amarelo-claro:`1`
+     - :destaque-amarelo-claro:`numeroControlePNCP`
+     - :destaque-amarelo-claro:`String`
+     - :destaque-amarelo-claro:`Número de Controle PNCP da Contratação (id Contratação PNCP)`
    * - 2
      - numeroCompra
      - Texto (50)
