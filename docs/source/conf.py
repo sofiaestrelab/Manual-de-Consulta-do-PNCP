@@ -1,5 +1,15 @@
+# importações de módulos python
 import os
 import sys
+
+# -- Permite destacar as linhas das tabelas via .CSS
+from docutils import nodes
+from docutils.parsers.rst import roles
+
+def destaque_amarelo_role(name, rawtext, text, lineno, inliner, options={}, content=[]):
+    node = nodes.inline(rawtext, text, classes=['destaque-amarelo'])
+    return [node], []
+    
 
 # Adiciona o diretório atual ao path
 sys.path.insert(0, os.path.abspath('.'))
