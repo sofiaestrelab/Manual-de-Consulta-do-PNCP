@@ -3,6 +3,8 @@ requires = ["flit_core >=3.2,<4"]
 build-backend = "flit_core.buildapi"
 
 [project]
-name = "Manual de Integração do PNCP"
+name = "Manual-de-Consulta-do-PNCP"
 authors = [{name = "PNCP", email = "pncp@gestao.gov.br"}]
-dynamic = ["version", "description"]
+version = "2.0"
+description = "Documentação técnica para as APIs de consulta do Portal Nacional de Contratações Públicas (PNCP)."
+readme = "README.md"

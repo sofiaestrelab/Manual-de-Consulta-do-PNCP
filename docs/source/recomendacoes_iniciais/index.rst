@@ -88,7 +88,7 @@ Dados de retorno
    :width: 100%
    :widths: 5 25 15 55
    :header-rows: 1
-   :class: quebra-linha-dois-ultima
+   :class: quebra-linha-dois-quatro
 
    * - Id
      - Campo
