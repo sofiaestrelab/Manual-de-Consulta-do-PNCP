@@ -6,9 +6,8 @@ portal ou sistema integrado (idUsuario). Essa informação pode ser encontrada a
 sítio: `Portais Integrados ao PNCP — Portal Nacional de Contratações Públicas - PNCP`_
 e clicando em “Pesquisa ID” conforme imagem a seguir:
 
-.. image:: _static/img/portais-integrados-ao-pncp.png
-   :width: 100%
-   :align: center
+.. image:: /_static/img/portais-integrados-ao-pncp.png
    :alt: Portais integrados ao PNCP
+   :align: center
 
 .. _Portais Integrados ao PNCP — Portal Nacional de Contratações Públicas - PNCP: https://www.gov.br/pncp/pt-br/pncp/portais-integrados-ao-pncp
