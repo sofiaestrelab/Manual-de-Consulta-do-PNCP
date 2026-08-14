@@ -13,6 +13,6 @@ Este documento técnico tem por finalidade orientar órgãos públicos, entidade
    acesso_ao_pncp/index
    recomendacoes_iniciais/index
    tabelas_de_dominio/index
-   catalogo_de_servicos
+   catalogo_de_servicos/index
    suporte
    glossario
