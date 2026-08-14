@@ -355,10 +355,9 @@ Códigos de Retorno
      - Internal Server Error
      - Erro
 
-Observação
-----------
+.. tip::
 
-Em adição ao serviço **6.4. Serviço Consultar Contratações com Período de Recebimento de Propostas em Aberto** mencionado neste manual, é importante destacar que o Portal Nacional de Contratações Públicas (PNCP) oferece uma gama ampla de funcionalidades via API que permitem uma consulta detalhada sobre **Contratações**.
+   Em adição ao serviço **6.4. Serviço Consultar Contratações com Período de Recebimento de Propostas em Aberto** mencionado neste manual, é importante destacar que o Portal Nacional de Contratações Públicas (PNCP) oferece uma gama ampla de funcionalidades via API que permitem uma consulta detalhada sobre **Contratações**.
 
 Essas funcionalidades estão descritas no **Manual de Integração — Portal Nacional de Contratações Públicas (PNCP)**, disponível no site oficial do Governo Federal.
 
