@@ -365,10 +365,9 @@ Códigos de Retorno
      - Internal Server Error
      - Erro
 
-Observação
-~~~~~~~~~~
+.. tip::
 
-Em adição ao serviço **6.6. Serviço Consultar Contratos por Data de Publicação** mencionado neste manual, é importante destacar que o Portal Nacional de Contratações Públicas (PNCP) oferece uma gama ampla de funcionalidades via API que permitem uma consulta detalhada sobre **CONTRATAÇÕES**.
+   Em adição ao serviço **6.6. Serviço Consultar Contratos por Data de Publicação** mencionado neste manual, é importante destacar que o Portal Nacional de Contratações Públicas (PNCP) oferece uma gama ampla de funcionalidades via API que permitem uma consulta detalhada sobre **CONTRATAÇÕES**.
 
 Estas funcionalidades estão minuciosamente descritas no Manual de Integração — Portal Nacional de Contratações Públicas - PNCP, disponível no site oficial `www.gov.br <https://www.gov.br>`_. Abaixo, apresentamos uma lista com alguns exemplos de serviços disponíveis:
 
