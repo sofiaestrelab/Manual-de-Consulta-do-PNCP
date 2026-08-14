@@ -10,4 +10,8 @@ e clicando em “Pesquisa ID” conforme imagem a seguir:
    :alt: Portais integrados ao PNCP
    :align: center
 
+.. raw:: html
+
+   <br />
+
 .. _Portais Integrados ao PNCP — Portal Nacional de Contratações Públicas - PNCP: https://www.gov.br/pncp/pt-br/pncp/portais-integrados-ao-pncp
