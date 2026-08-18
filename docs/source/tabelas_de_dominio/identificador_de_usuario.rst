@@ -1,4 +1,4 @@
-5.17. Identificador de Usuário
+Identificador de Usuário
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Para uso de algumas APIs pode ser necessário incluir o Identificador Único do
