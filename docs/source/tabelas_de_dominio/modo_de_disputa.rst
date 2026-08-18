@@ -1,9 +1,4 @@
 Modo de Disputa
-----------------
+---------------
 
-- (código = 1) Aberto
-- (código = 2) Fechado
-- (código = 3) Aberto-Fechado
-- (código = 4) Dispensa Com Disputa
-- (código = 5) Não se aplica
-- (código = 6) Fechado-Aberto
+Para consulta aos modos de disputa acessar a página no Portal PNCP pelo endereço `https://pncp.gov.br/app/entidades-dominio <https://pncp.gov.br/app/entidades-dominio>`_. Para ajudar na integração com o PNCP foram disponibilizados os serviços para consulta de modo(s) de disputa. 
