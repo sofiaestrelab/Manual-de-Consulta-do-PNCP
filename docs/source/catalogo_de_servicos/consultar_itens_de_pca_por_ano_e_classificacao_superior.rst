@@ -43,8 +43,9 @@ Dados de entrada
 
 .. list-table::
    :width: 100%
-   :widths: auto
+   :widths: 5 10 15 55
    :header-rows: 1
+   :class: quebra-linha-dois-ultima
 
    * - Id
      - Campo
@@ -77,8 +78,9 @@ Dados de retorno
 
 .. list-table::
    :width: 100%
-   :widths: auto
+   :widths: 5 10 15 55
    :header-rows: 1
+   :class: quebra-linha-dois-ultima
 
    * - Id
      - Campo
