@@ -1,5 +1,5 @@
 Porte da Empresa
------------------
+=================
 
 - (código = 1) ME: Microempresa
 - (código = 2) EPP: Empresa de pequeno porte
