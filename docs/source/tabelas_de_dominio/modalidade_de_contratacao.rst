@@ -1,16 +1,5 @@
 Modalidade de Contratação
---------------------------
+-------------------------
 
-- (código = 1) Leilão - Eletrônico
-- (código = 2) Diálogo Competitivo
-- (código = 3) Concurso
-- (código = 4) Concorrência - Eletrônica
-- (código = 5) Concorrência - Presencial
-- (código = 6) Pregão - Eletrônico
-- (código = 7) Pregão - Presencial
-- (código = 8) Dispensa de Licitação
-- (código = 9) Inexigibilidade
-- (código = 10) Manifestação de Interesse
-- (código = 11) Pré-qualificação
-- (código = 12) Credenciamento
-- (código = 13) Leilão - Presencial
+Para consulta às modalidades de contratação acessar a página no Portal PNCP pelo endereço `https://pncp.gov.br/app/entidades-dominio <https://pncp.gov.br/app/entidades-dominio>`_. Para ajudar na integração com o PNCP foram disponibilizados os serviços para consulta de modalidade(s) de contratação. 
+
