@@ -5,4 +5,4 @@ Para garantir a melhor experiência de consulta e atender às diferentes necessi
 de leitura, disponibilizamos a documentação em múltiplos formatos de acesso:
 
 * `Padrão - formato HTML com paginação <../>`_
-* `Página única - formato HTML em página única (impressão) <../singlehtml/index.html>`_
+* `Página única - formato HTML em página única (impressão) <singlehtml/index.html>`_
