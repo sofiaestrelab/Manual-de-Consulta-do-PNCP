@@ -19,12 +19,12 @@ Conforme a composição descrita a seguir.
 
 id pca pncp
 
-**Máscara:** 99999999999999-0-999999/9999
+**Máscara:** ``99999999999999-0-999999/9999``
 
 Cada PCA receberá um número de controle composto por:
 
 - CNPJ do órgão/entidade do PCA (14 dígitos);
-- Dígito 0 — marcador que indica tratar-se de um Plano de Contratação Anual;
+- Dígito ``0`` — marcador que indica tratar-se de um Plano de Contratação Anual;
 - Número sequencial do Plano no PNCP*;
 - Ano do Plano (4 dígitos).
 
@@ -32,12 +32,12 @@ Cada PCA receberá um número de controle composto por:
 
 id contratacao pncp
 
-**Máscara:** 99999999999999-1-999999/9999
+**Máscara:** ``99999999999999-1-999999/9999``
 
 Cada contratação receberá um número de controle composto por:
 
 - CNPJ do órgão/entidade da contratação (14 dígitos);
-- Dígito 1 — marcador que indica tratar-se de uma contratação;
+- Dígito ``1`` — marcador que indica tratar-se de uma contratação;
 - Número sequencial da contratação no PNCP*;
 - Ano da contratação (4 dígitos).
 
@@ -45,7 +45,7 @@ Cada contratação receberá um número de controle composto por:
 
 id ata pncp
 
-**Máscara:** 99999999999999-1-999999/9999-999999
+**Máscara:** ``99999999999999-1-999999/9999-999999``
 
 Cada ata receberá um número de controle composto por:
 
@@ -56,12 +56,12 @@ Cada ata receberá um número de controle composto por:
 
 id contrato pncp
 
-**Máscara:** 99999999999999-2-999999/9999
+**Máscara:** ``99999999999999-2-999999/9999``
 
 Cada contrato receberá um número de controle composto por:
 
 - CNPJ do órgão/entidade do contrato (14 dígitos);
-- Dígito 2 — marcador que indica tratar-se de um contrato;
+- Dígito ``2`` — marcador que indica tratar-se de um contrato;
 - Número sequencial do contrato no PNCP*;
 - Ano do contrato (4 dígitos).
 
