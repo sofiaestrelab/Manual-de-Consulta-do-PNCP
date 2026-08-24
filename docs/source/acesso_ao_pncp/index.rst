@@ -13,5 +13,5 @@ A invocação dos serviços será realizada através das URLs citadas abaixo, co
 - **Serviços (${BASE_URL}):** https://pncp.gov.br/api/consulta
 
 .. note::
-   ${BASE_URL} será utilizada nos exemplos de requisições citados neste documento.
+   ``${BASE_URL}`` será utilizada nos exemplos de requisições citados neste documento.
    É a URL base para acesso aos serviços disponíveis no PNCP.
