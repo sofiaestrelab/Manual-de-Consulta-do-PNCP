@@ -22,7 +22,7 @@ Detalhes de Requisição
 Exemplo de Payload
 ~~~~~~~~~~~~~~~~~~
 
-.. code-block:: json
+.. code-block:: text
    :linenos:
 
    Não se aplica
