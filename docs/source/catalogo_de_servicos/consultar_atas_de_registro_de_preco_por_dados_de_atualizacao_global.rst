@@ -31,7 +31,7 @@ Exemplo Requisição (cURL)
    :linenos:
 
    curl -X 'GET' \
-     'https://pncp.gov.br/api/consulta/v1/atas?dataInicial=20260101&dataFinal=20260101&idUsuario=3&cnpj=10000000000003&codigoUnidadeAdministrativa=2&pagina=5' \
+     'https://pncp.gov.br/api/consulta/v1/atas/atualizacao?dataInicial=20260101&dataFinal=20260101&pagina=2' \
      -H 'accept: */*'
 
 Dados de entrada
