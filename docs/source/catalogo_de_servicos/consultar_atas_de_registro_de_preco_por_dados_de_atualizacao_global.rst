@@ -22,6 +22,7 @@ Exemplo de Payload
 .. code-block:: text
    :linenos:
 
+   Não se aplica.
 
 Exemplo Requisição (cURL)
 ~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -29,6 +30,9 @@ Exemplo Requisição (cURL)
 .. code-block:: bash
    :linenos:
 
+   curl -X 'GET' \
+     'https://pncp.gov.br/api/consulta/v1/atas?dataInicial=20260101&dataFinal=20260101&idUsuario=3&cnpj=10000000000003&codigoUnidadeAdministrativa=2&pagina=5' \
+     -H 'accept: */*'
 
 Dados de entrada
 ~~~~~~~~~~~~~~~~
@@ -99,104 +103,124 @@ Dados de retorno
      - Descrição
    * - 1
      - data
-     - array
+     - Lista
      - Lista de Atas de Registro de Preço.
-   * - 2
+   * - 1.1
      - numeroControlePNCPAta
-     - string
+     - String
      - Número de controle PNCP da Ata.
-   * - 3
+   * - 1.2
      - numeroAtaRegistroPreco
      - Texto (50)
      - Número da Ata no sistema de origem.
-   * - 4
+   * - 1.3
      - anoAta
-     - inteiro
+     - Inteiro
      - Ano da Ata.
-   * - 5
+   * - 1.4
      - numeroControlePncpCompra
-     - string
+     - String
      - Número de controle PNCP da compra.
-   * - 6
+   * - 1.5
      - cancelado
      - Booleano
      - Indicador de cancelamento da Ata.
-   * - 7
+   * - 1.6
      - dataCancelamento
      - Data
-     - Data de cancelamento da Ata. 
-   * - 8
+     - Data de cancelamento da Ata.
+   * - 1.7
      - dataAssinatura
      - Data
      - Data de assinatura da Ata.
-   * - 9
+   * - 1.8
      - vigenciaInicio
-     - string (date-time)
+     - Data
      - Data de início da vigência da Ata.
-   * - 10
+   * - 1.9
      - vigenciaFim
-     - string (date-time)
+     - Data
      - Data de término da vigência da Ata.
-   * - 11
+   * - 1.10
      - dataPublicacaoPncp
-     - string (date-time)
-     - Data de publicação no PNCP.
-   * - 12
+     - Data
+     - Data da publicação da Ata no PNCP.
+   * - 1.11
      - dataInclusao
-     - string (date-time)
-     - Data de inclusão do registro.
-   * - 13
+     - Data
+     - Data da inclusão do registro da Ata no PNCP.
+   * - 1.12
      - dataAtualizacao
-     - string (date-time)
-     - Data de atualização do registro.
-   * - 14
+     - Data
+     - Data da última atualização do registro da Ata.
+   * - 1.13
      - dataAtualizacaoGlobal
-     - string (date-time)
-     - Data de atualização global do registro.
-   * - 15
+     - Data
+     - Data da última atualização global do registro da Ata.
+   * - 1.14
      - usuario
-     - string
-     - Usuário responsável pela operação.
-   * - 16
+     - String
+     - Nome do sistema usuário (Sistema de Contratações Públicas) que publicou a Ata.
+   * - 1.15
      - objetoContratacao
-     - string
-     - Objeto da contratação.
-   * - 17
+     - String
+     - Descrição do objeto referente à Ata.
+   * - 1.16
      - cnpjOrgao
-     - string
-     - CNPJ do órgão.
-   * - 18
+     - String
+     - CNPJ do órgão referente à Ata.
+   * - 1.17
      - nomeOrgao
-     - string
-     - Nome do órgão.
-   * - 19
+     - String
+     - Razão social do órgão referente à Ata.
+   * - 1.18
      - cnpjOrgaoSubrogado
-     - string
-     - CNPJ do órgão sub-rogado.
-   * - 20
+     - String
+     - CNPJ do órgão subrogado referente à Ata.
+   * - 1.19
      - nomeOrgaoSubrogado
-     - string
-     - Nome do órgão sub-rogado.
-   * - 21
+     - String
+     - Razão social do órgão subrogado referente à Ata.
+   * - 1.20
      - codigoUnidadeOrgao
-     - string
-     - Código da unidade do órgão.
-   * - 22
+     - String
+     - Código da unidade administrativa do órgão referente à Ata.
+   * - 1.21
      - nomeUnidadeOrgao
-     - string
-     - Nome da unidade do órgão.
-   * - 23
+     - String
+     - Nome da unidade administrativa do órgão referente à Ata.
+   * - 1.22
      - codigoUnidadeOrgaoSubrogado
      - string
-     - Código da unidade do órgão sub-rogado.
-   * - 24
+     - Código da unidade administrativa subrogada do órgão subrogado referente à Ata.
+   * - 1.23
      - nomeUnidadeOrgaoSubrogado
      - String
-     - Nome da unidade do órgão sub-rogado.
-   * - 25
+     - Nome da unidade administrativa subrogada do órgão subrogado referente à Ata.
+   * - 1.24
      - possibilidadeAdesao
      - Booleano
-     - Indicador se a Ata permite adesão de não participantes (False = Não / True = Sim)
+     - Indicador se a Ata permite adesão de não participantes (False = Não / True = Sim).
+   * - 2
+     - totalRegistros
+     - Inteiro
+     - Total de registros de Atas encontrados
+   * - 3
+     - totalPaginas
+     - Inteiro
+     - Total de páginas.
+   * - 4
+     - numeroPagina
+     - Inteiro
+     - Número da página consultada.
+   * - 5
+     - paginasRestantes
+     - Inteiro
+     - Quantidade de páginas restantes.
+   * - 6
+     - empty
+     - Booleano
+     - Indica se o retorno está vazio.
   
 Códigos de Retorno
 ~~~~~~~~~~~~~~~~~~
@@ -211,19 +235,16 @@ Códigos de Retorno
      - Tipo
    * - 200
      - OK
-     - application/json
+     - Sucesso
    * - 204
-     - Sem conteúdo
-     - application/json
+     - No Content
+     - Sucesso
    * - 400
-     - Pedido ruim
-     - application/json
-   * - 401
-     - Não autorizado
-     - string
+     - Bad Request
+     - Erro
    * - 422
-     - Entidade não processável
-     - application/json
+     - Unprocessable Entity
+     - Erro
    * - 500
-     - Erro do Servidor Interno
-     - string
+     - Internal Server Error
+     - Erro
