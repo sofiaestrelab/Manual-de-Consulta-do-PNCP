@@ -1,0 +1,1 @@
+Serviço de Consultar atas de registro de preço por dados de atualização global 
