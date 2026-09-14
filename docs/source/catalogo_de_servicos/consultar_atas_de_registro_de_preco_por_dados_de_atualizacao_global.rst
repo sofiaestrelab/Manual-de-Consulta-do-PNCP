@@ -13,7 +13,7 @@ Detalhes de Requisição
 
    * - Endpoint
      - Método HTTP
-   * - /v1/atas
+   * - /v1/atas/atualizacao
      - GET
 
 Exemplo de Payload
