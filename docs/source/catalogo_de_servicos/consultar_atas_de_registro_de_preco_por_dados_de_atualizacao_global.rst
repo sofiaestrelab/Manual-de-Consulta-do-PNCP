@@ -1,7 +1,7 @@
-Serviço de Consultar Atas de Registro de Preço por Dados de Atualização Global
+Serviço de Consultar Atas de Registro de Preço por Data de Atualização Global
 ==============================================================================
 
-Serviço responsável por consultar Atas de Registro de Preço por dados de atualização global.
+Serviço responsável por consultar Atas de Registro de Preço por data de atualização global.
 
 Detalhes de Requisição
 ~~~~~~~~~~~~~~~~~~~~~~
