@@ -8,7 +8,7 @@ Catálogo de Serviços
    servico_consultar_atas_de_registro_de_preco_por_periodo_de_vigencia
    consultar_contratacao
    consultar_contratacoes_por_dados_de_publicacao
-   consultar contratações com recebimento de propostas abertas
+   consultar_contratações_com_recebimento_de_propostas_abertas
    consultar_contratacoes_por_dados_de_atualizacao_global
    servico_consultar_contratos_por_data_de_publicacao
    consultar_contratos_ou_empenhos_por_dados_de_atualizacao_global
