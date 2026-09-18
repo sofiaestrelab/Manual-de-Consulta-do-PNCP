@@ -119,7 +119,7 @@ Dados de retorno
      - Sequencial do instrumento de cobrança.
    * - 1.5
      - tipoInstrumentoCobranca
-     - 
+     - Lista
      - Dados do tipo de instrumento de cobrança.
    * - 1.5.1
      - id
@@ -179,7 +179,7 @@ Dados de retorno
      - Resposta da consulta da Nota Fiscal Eletrônica em formato JSON.
    * - 1.14
      - notaFiscalEletronica
-     - 
+     - Lista
      - Dados da Nota Fiscal Eletrônica.
    * - 1.14.1
      - instrumentoCobrancaId
@@ -323,7 +323,7 @@ Dados de retorno
      - Data da última atualização do instrumento de cobrança.
    * - 1.17
      - recuperarContratoDTO
-     - 
+     - Lista
      - Dados do contrato relacionado ao instrumento de cobrança.
    * - 1.17.1
      - numeroControlePncpCompra
@@ -379,7 +379,7 @@ Dados de retorno
      - Tipo de pessoa do fornecedor.
    * - 1.17.12
      - orgaoEntidade
-     - 
+     - Lista
      - Dados do Órgão/Entidade.
    * - 1.17.12.1
      - cnpj
@@ -399,7 +399,7 @@ Dados de retorno
      - Código da esfera a que pertence o Órgão. F - Federal; E - Estadual; M - Municipal; D - Distrital.
    * - 1.17.13
      - categoriaProcesso
-     - 
+     - Lista
      - Dados da categoria do processo.
    * - 1.17.13.1
      - id
@@ -423,7 +423,7 @@ Dados de retorno
      - Sequencial do contrato no PNCP.
    * - 1.17.17
      - unidadeOrgao
-     - 
+     - Lista
      - Dados da Unidade Administrativa.
    * - 1.17.17.1
      - ufNome
@@ -459,7 +459,7 @@ Dados de retorno
      - Número do processo de contratação no sistema de origem.
    * - 1.17.20
      - unidadeSubRogada
-     - 
+     - Lista
      - Dados da Unidade Administrativa do Órgão subrogado.
    * - 1.17.20.1
      - ufNome
@@ -487,7 +487,7 @@ Dados de retorno
      - Nome do município.
    * - 1.17.21
      - orgaoSubRogado
-     - 
+     - Lista
      - Dados do Órgão/Entidade subrogado.
    * - 1.17.21.1
      - cnpj
@@ -608,7 +608,6 @@ Dados de retorno
 
 Códigos de Retorno
 ~~~~~~~~~~~~~~~~~~
-
 .. list-table::
    :width: 100%
    :widths: auto
@@ -618,20 +617,14 @@ Códigos de Retorno
      - Mensagem
      - Tipo
    * - 200
-     - OK
-     - */*
-   * - 204
-     - No Content
-     - */*
+     - Created
+     - Sucesso
    * - 400
-     - Bad Request
-     - */*
-   * - 401
-     - Unauthorized
-     - string
+     - BadRequest
+     - Erro
    * - 422
      - Unprocessable Entity
-     - */*
+     - Erro
    * - 500
      - Internal Server Error
-     - string
+     - Erro
