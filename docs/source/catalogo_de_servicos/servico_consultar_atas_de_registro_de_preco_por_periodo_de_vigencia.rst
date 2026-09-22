@@ -78,16 +78,16 @@ Dados de entrada
      - Inteiro
      - Não
      - Identificador do sistema usuário (Sistema de Contratações Públicas) que publicou a ata.
-   * - :destaque-amarelo-claro:`4`
-     - :destaque-amarelo-claro:`cnpj`
-     - :destaque-amarelo-claro:`String`
-     - :destaque-amarelo-claro:`Não`
-     - :destaque-amarelo-claro:`CNPJ do órgão originário da contratação informado na inclusão (proprietário da contratação).`
-   * - :destaque-amarelo-claro:`5`
-     - :destaque-amarelo-claro:`codigoUnidadeAdministrativa`
-     - :destaque-amarelo-claro:`String`
-     - :destaque-amarelo-claro:`Não`
-     - :destaque-amarelo-claro:`Código da Unidade Administrativa do Órgão originário da contratação informado na inclusão (proprietário da contratação).`
+   * - 4
+     - cnpj
+     - String
+     - Não
+     - CNPJ do órgão originário da contratação informado na inclusão (proprietário da contratação).
+   * - 5
+     - codigoUnidadeAdministrativa
+     - String
+     - Não
+     - Código da Unidade Administrativa do Órgão originário da contratação informado na inclusão (proprietário da contratação).
    * - 6
      - pagina
      - Inteiro
