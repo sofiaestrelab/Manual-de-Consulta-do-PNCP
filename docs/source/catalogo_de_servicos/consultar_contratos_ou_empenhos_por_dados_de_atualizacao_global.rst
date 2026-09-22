@@ -1,4 +1,4 @@
-Consultar Contratos ou Empenhos por Dados de Atualização Global
+Consultar Contratos/Empenhos por Dados de Atualização Global
 ===============================================================
 
 Detalhes da Requisição
