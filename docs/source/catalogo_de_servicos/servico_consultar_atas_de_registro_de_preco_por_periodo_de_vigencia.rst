@@ -115,10 +115,10 @@ Dados de retorno
      - Atas
      - Agrupador
      - Agrupador da lista de atas
-   * - :destaque-amarelo-claro:`1.1`
-     - :destaque-amarelo-claro:`numeroControlePNCPAta`
-     - :destaque-amarelo-claro:`String`
-     - :destaque-amarelo-claro:`Número de Controle PNCP da Ata (id Ata PNCP)`
+   * - 1.1
+     - numeroControlePNCPAta
+     - String
+     - Número de Controle PNCP da Ata (id Ata PNCP)
    * - 1.2
      - numeroControlePNCPCompra
      - String
