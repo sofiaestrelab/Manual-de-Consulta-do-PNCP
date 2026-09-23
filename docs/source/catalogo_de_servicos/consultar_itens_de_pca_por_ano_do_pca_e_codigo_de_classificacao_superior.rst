@@ -39,22 +39,27 @@ Dados de Entrada
      - Campo
      - Tipo
      - Obrigatório
+     - Descrição
    * - 1
      - anoPca
      - Inteiro 
      - Sim
+     - 
    * - 2
      - codigoClassificacaoSuperior
      - Texto
      - Sim
+     -
    * - 3
      - pagina
      - Inteiro 
      - Sim
+     -
    * - 4
      - tamanhoPagina
      - Inteiro 
      - Não
+     -
 
 Dados de retorno
 ~~~~~~~~~~~~~~~~
