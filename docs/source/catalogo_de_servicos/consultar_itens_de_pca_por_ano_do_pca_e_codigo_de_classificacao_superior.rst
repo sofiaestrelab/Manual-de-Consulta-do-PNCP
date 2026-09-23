@@ -33,7 +33,7 @@ Dados de Entrada
    :width: 100%
    :widths: 5 30 20 45
    :header-rows: 1
-   :class: quebra-linha-dois-quatro
+   :class: quebra-linha-dois-ultima 
 
    * - Id
      - Campo
@@ -63,7 +63,7 @@ Dados de retorno
    :width: 100%
    :widths: 5 30 15 50
    :header-rows: 1
-   :class: quebra-linha-dois-quatro
+   :class: quebra-linha-dois-ultima 
 
    * - Id
      - Campo
