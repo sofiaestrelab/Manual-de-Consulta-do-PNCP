@@ -8,9 +8,9 @@ A invocação dos serviços será realizada através das URLs citadas abaixo, co
 
 **Ambiente de Produção**
 
-- **Portal:** https://pncp.gov.br
+- **Portal:** https://pncp.gov.br 
 - **Documentação Técnica (Serviços):** https://pncp.gov.br/api/consulta/swaggerui/index.html
-- **Serviços (${BASE_URL}):** https://pncp.gov.br/api/consulta
+- **Serviços (${BASE_URL}):** https://pncp.gov.br/api/consulta/swagger-ui/index.html
 
 .. note::
    ``${BASE_URL}`` será utilizada nos exemplos de requisições citados neste documento.
