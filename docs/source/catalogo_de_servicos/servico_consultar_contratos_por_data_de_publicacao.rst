@@ -47,6 +47,7 @@ Dados de entrada
    :width: 100%
    :widths: auto
    :header-rows: 1
+   :class: quebra-linha-dois-ultima 
 
    * - Id
      - Campo
@@ -96,15 +97,16 @@ Dados de retorno
    :width: 100%
    :widths: auto
    :header-rows: 1
+   :class: quebra-linha-dois-ultima 
 
    * - Id
      - Campo
      - Tipo
      - Descrição
-   * - :destaque-amarelo-claro:`1`
-     - :destaque-amarelo-claro:`numeroControlePNCP`
-     - :destaque-amarelo-claro:`String`
-     - :destaque-amarelo-claro:`Número de controle PNCP do contrato (id contrato PNCP)`
+   * - 1
+     - numeroControlePNCP
+     - String
+     - Número de controle PNCP do contrato (id contrato PNCP)
    * - 2
      - numeroControlePNCPCompra
      - String
