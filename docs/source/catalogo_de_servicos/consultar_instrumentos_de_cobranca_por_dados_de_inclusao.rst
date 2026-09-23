@@ -1,4 +1,4 @@
-Consultar Instrumentos de Cobraça por Dados de Inclusão
+Consultar Instrumentos de Cobrança por Dados de Inclusão
 =======================================================
 
 Servços de consulta dos Instrumentos de Cobrança por Dados de Inclusão.
