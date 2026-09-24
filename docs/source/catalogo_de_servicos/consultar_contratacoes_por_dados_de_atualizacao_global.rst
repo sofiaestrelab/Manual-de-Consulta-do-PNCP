@@ -1,4 +1,4 @@
-Consultar Contratações por Dados de Atualização Global
+Consultar Contratações por Data de Atualização Global
 ======================================================
 
 Serviços de Consultar Contratações por Dados de Atualização Global no PNCP.
