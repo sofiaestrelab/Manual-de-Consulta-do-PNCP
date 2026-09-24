@@ -1,5 +1,5 @@
-Serviço Consultar Contratos por Data de Publicação
---------------------------------------------------
+Serviço Consultar Contratações por Data de Publicação
+-----------------------------------------------------
 
 Serviço que permite consultar contratos e/ou empenhos com força de contrato publicados no PNCP por um período informado. A partir da data inicial e data final
 informadas serão recuperados os contratos/empenhos publicados no período. Opcionalmente poderá ser informado CNPJ do Órgão/Entidade, código da Unidade Administrativa do Órgão/Entidade ou número de identificação do Usuário (Portais de Contratações Públicas).
