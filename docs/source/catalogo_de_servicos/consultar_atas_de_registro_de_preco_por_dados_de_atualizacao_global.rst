@@ -39,7 +39,7 @@ Dados de entrada
 
 .. note::
 
-   Alimentar os parâmetros de consulta ``{dataInicial}``, ``{dataFinal}`` e ``{página}`` na requisição.
+   Alimentar os parâmetros de consulta ``{dataInicial}``, ``{dataFinal}`` e ``{pagina}`` na requisição.
 
 .. list-table::
    :width: 100%
