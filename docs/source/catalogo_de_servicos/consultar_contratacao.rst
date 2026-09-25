@@ -329,7 +329,11 @@ Dados de Retorno
      - usuarioNome
      - Texto
      - Nome do Usuário/Sistema que enviou a Contratação
-
+   * - 38
+	 - existeResultado
+	 - Booleano
+	 - Marcador de existência de resultado na contratação (False – Não / True – Sim ) 
+ 
 Códigos de Retorno
 ~~~~~~~~~~~~~~~~~~
 
