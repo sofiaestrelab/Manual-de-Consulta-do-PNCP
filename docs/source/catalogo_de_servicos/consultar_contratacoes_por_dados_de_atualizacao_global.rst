@@ -1,4 +1,4 @@
-Consultar Contratações por Dados de Atualização Global
+Consultar Contratações por Data de Atualização Global
 ======================================================
 
 Serviços de Consultar Contratações por Dados de Atualização Global no PNCP.
@@ -43,9 +43,9 @@ Dados de entrada
 
 .. list-table::
    :width: 100%
-   :widths: 5 25 15 55
+   :widths: 5 25 10 15 55
    :header-rows: 1
-   :class: quebra-linha-dois-quatro
+   :class: quebra-linha-dois-ultima 
 
    * - Id
      - Campo
@@ -115,7 +115,7 @@ Dados de retorno
    :width: 100%
    :widths: 5 25 15 55
    :header-rows: 1
-   :class: quebra-linha-dois-quatro
+   :class: quebra-linha-dois-ultima 
 
    * - Id
      - Campo

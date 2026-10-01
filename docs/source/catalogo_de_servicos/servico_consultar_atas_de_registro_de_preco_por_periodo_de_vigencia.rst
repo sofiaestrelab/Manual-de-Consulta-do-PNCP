@@ -54,7 +54,7 @@ Dados de entrada
 
 .. list-table::
    :width: 100%
-   :widths: 5 10 15 55
+   :widths: 5 25 10 15 55
    :header-rows: 1
    :class: quebra-linha-dois-ultima
 
@@ -78,16 +78,16 @@ Dados de entrada
      - Inteiro
      - Não
      - Identificador do sistema usuário (Sistema de Contratações Públicas) que publicou a ata.
-   * - :destaque-amarelo-claro:`4`
-     - :destaque-amarelo-claro:`cnpj`
-     - :destaque-amarelo-claro:`String`
-     - :destaque-amarelo-claro:`Não`
-     - :destaque-amarelo-claro:`CNPJ do órgão originário da contratação informado na inclusão (proprietário da contratação).`
-   * - :destaque-amarelo-claro:`5`
-     - :destaque-amarelo-claro:`codigoUnidadeAdministrativa`
-     - :destaque-amarelo-claro:`String`
-     - :destaque-amarelo-claro:`Não`
-     - :destaque-amarelo-claro:`Código da Unidade Administrativa do Órgão originário da contratação informado na inclusão (proprietário da contratação).`
+   * - 4
+     - cnpj
+     - String
+     - Não
+     - CNPJ do órgão originário da contratação informado na inclusão (proprietário da contratação).
+   * - 5
+     - codigoUnidadeAdministrativa
+     - String
+     - Não
+     - Código da Unidade Administrativa do Órgão originário da contratação informado na inclusão (proprietário da contratação).
    * - 6
      - pagina
      - Inteiro
@@ -106,6 +106,7 @@ Dados de retorno
    :width: 100%
    :widths: auto
    :header-rows: 1
+   :class: quebra-linha-dois-ultima 
 
    * - Id
      - Campo
@@ -115,10 +116,10 @@ Dados de retorno
      - Atas
      - Agrupador
      - Agrupador da lista de atas
-   * - :destaque-amarelo-claro:`1.1`
-     - :destaque-amarelo-claro:`numeroControlePNCPAta`
-     - :destaque-amarelo-claro:`String`
-     - :destaque-amarelo-claro:`Número de Controle PNCP da Ata (id Ata PNCP)`
+   * - 1.1
+     - numeroControlePNCPAta
+     - String
+     - Número de Controle PNCP da Ata (id Ata PNCP)
    * - 1.2
      - numeroControlePNCPCompra
      - String

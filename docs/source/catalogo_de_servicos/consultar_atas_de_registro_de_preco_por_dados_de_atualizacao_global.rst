@@ -39,11 +39,11 @@ Dados de entrada
 
 .. note::
 
-   Alimentar os parâmetros de consulta ``{dataInicial}``, ``{dadosFinal}`` e ``{página}`` na requisição.
+   Alimentar os parâmetros de consulta ``{dataInicial}``, ``{dataFinal}`` e ``{pagina}`` na requisição.
 
 .. list-table::
    :width: 100%
-   :widths: 5 10 15 55
+   :widths: 5 25 10 15 55
    :header-rows: 1
    :class: quebra-linha-dois-ultima
 

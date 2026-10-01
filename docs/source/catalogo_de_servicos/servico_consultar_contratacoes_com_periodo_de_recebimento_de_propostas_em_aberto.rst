@@ -41,11 +41,11 @@ Dados de entrada
 
 .. note::
 
-   Dados a serem enviados no cabeçalho da requisição.
+   Alimentar os parâmetros ``{dataFinal}`` e ``{pagina}`` na URL.
 
 .. list-table::
    :width: 100%
-   :widths: 5 10 15 55
+   :widths: 5 25 10 15 55
    :header-rows: 1
    :class: quebra-linha-dois-ultima
 
@@ -107,6 +107,7 @@ Dados de retorno
    :width: 100%
    :widths: auto
    :header-rows: 1
+   :class: quebra-linha-dois-ultima 
 
    * - Id
      - Campo
@@ -129,7 +130,7 @@ Dados de retorno
      - Texto (50)
      - Número do processo de Contratação no sistema de origem
    * - 5
-     - tipoInstrumentoConvocatorioId
+     - tipoInstrumentoConvocatorioCodigo 
      - Inteiro
      - Código do instrumento convocatório da Contratação
    * - 6
@@ -229,7 +230,7 @@ Dados de retorno
      - String
      - CNPJ do Órgão referente à Contratação
    * - 25.2
-     - razaosocial
+     - razaoSocial
      - String
      - Razão social do Órgão referente à Contratação
    * - 25.3
@@ -254,7 +255,7 @@ Dados de retorno
      - Nome da Unidade Administrativa pertencente ao Órgão
    * - 26.3
      - codigoIbge
-     - Inteiro
+     - Texto
      - Código IBGE do município
    * - 26.4
      - municipioNome
@@ -302,7 +303,7 @@ Dados de retorno
      - Nome da Unidade Administrativa pertencente ao Órgão subrogado
    * - 29.3
      - codigoIbge
-     - Inteiro
+     - Texto
      - Código IBGE do município
    * - 29.4
      - municipioNome

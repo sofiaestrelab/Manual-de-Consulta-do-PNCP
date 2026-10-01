@@ -43,39 +43,35 @@ Dados de entrada
 
 .. list-table::
    :width: 100%
-   :widths: auto
+   :widths: 5 25 10 15 55
    :header-rows: 1
+   :class: quebra-linha-dois-ultima 
 
    * - Id
      - Campo
      - Tipo
      - Obrigatório
      - Descrição
-
    * - 1
      - anoPca
      - Inteiro
      - Sim
      - Ano do PCA
-
    * - 2
      - idUsuario
      - Inteiro
      - Sim
      - Número de identificação do usuário (Sistema de Contratações Públicas) que publicou a informação no Portal PNCP.
-
    * - 3
      - codigoClassificacaoSuperior
      - Texto (100)
      - Não
      - Código da Classe do material ou Grupo do serviço conforme catálogos de matérias e serviços utilizados pelos portais de compras.
-
    * - 4
      - pagina
      - Inteiro
      - Sim
      - Número da página que se deseja obter os dados.
-
    * - 5
      - tamanhoPagina
      - Inteiro
@@ -89,6 +85,7 @@ Dados de retorno
    :width: 100%
    :widths: 5 25 15 55
    :header-rows: 1
+   :class: quebra-linha-dois-ultima 
 
    * - Id
      - Campo

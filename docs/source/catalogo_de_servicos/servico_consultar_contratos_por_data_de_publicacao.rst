@@ -1,5 +1,5 @@
-Serviço Consultar Contratos por Data de Publicação
---------------------------------------------------
+Serviço Consultar Contratações por Data de Publicação
+-----------------------------------------------------
 
 Serviço que permite consultar contratos e/ou empenhos com força de contrato publicados no PNCP por um período informado. A partir da data inicial e data final
 informadas serão recuperados os contratos/empenhos publicados no período. Opcionalmente poderá ser informado CNPJ do Órgão/Entidade, código da Unidade Administrativa do Órgão/Entidade ou número de identificação do Usuário (Portais de Contratações Públicas).
@@ -41,12 +41,13 @@ Dados de entrada
 
 .. note::
 
-   Dados a serem enviados no cabeçalho da requisição.
+   Alimentar os parâmetros ``{dataInicial}``, ``{dataFinal}``, ``{cnpjOrgao}`` e ``{pagina}`` na URL.
 
 .. list-table::
    :width: 100%
-   :widths: auto
+   :widths: 5 25 10 15 55
    :header-rows: 1
+   :class: quebra-linha-dois-ultima 
 
    * - Id
      - Campo
@@ -68,11 +69,11 @@ Dados de entrada
      - String
      - Não
      - CNPJ do órgão originário da contratação informado na inclusão (proprietário do contrato)
-   * - :destaque-amarelo-claro:`4`
-     - :destaque-amarelo-claro:`codigoUnidadeAdministrativa`
-     - :destaque-amarelo-claro:`String`
-     - :destaque-amarelo-claro:`Não`
-     - :destaque-amarelo-claro:`Código da Unidade Administrativa do Órgão originário da contratação informado na inclusão (proprietário do contrato)`
+   * - 4
+     - codigoUnidadeAdministrativa
+     - String
+     - Não
+     - Código da Unidade Administrativa do Órgão originário da contratação informado na inclusão (proprietário do contrato)
    * - 5
      - usuarioId
      - Inteiro
@@ -96,15 +97,16 @@ Dados de retorno
    :width: 100%
    :widths: auto
    :header-rows: 1
+   :class: quebra-linha-dois-ultima 
 
    * - Id
      - Campo
      - Tipo
      - Descrição
-   * - :destaque-amarelo-claro:`1`
-     - :destaque-amarelo-claro:`numeroControlePNCP`
-     - :destaque-amarelo-claro:`String`
-     - :destaque-amarelo-claro:`Número de controle PNCP do contrato (id contrato PNCP)`
+   * - 1
+     - numeroControlePNCP
+     - String
+     - Número de controle PNCP do contrato (id contrato PNCP)
    * - 2
      - numeroControlePNCPCompra
      - String
@@ -195,7 +197,7 @@ Dados de retorno
      - Nome da Unidade Executora pertencente ao Órgão
    * - 13.3
      - codigoIbge
-     - Inteiro
+     - Texto
      - Código IBGE do município
    * - 13.4
      - municipioNome
@@ -243,7 +245,7 @@ Dados de retorno
      - Nome da Unidade Executora pertencente ao Órgão
    * - 15.3
      - codigoIbge
-     - Inteiro
+     - Texto
      - Código IBGE do município
    * - 15.4
      - municipioNome
@@ -337,6 +339,14 @@ Dados de retorno
      - urlCipi
      - String
      - Url com informações do contrato no sistema de Cadastro Integrado de Projetos de Investimento
+   * - 36
+     - numeroControlePncpAta
+     - String 
+     - Número de controle PNCP da Ata de Registro de Preço relacionada (id ata PNCP)
+   * - 37
+     - codigoPaisFornecedor
+     - String 
+     - Código do país do fornecedor (Exemplo: "BRA")
 
 Códigos de Retorno
 ~~~~~~~~~~~~~~~~~~
@@ -367,11 +377,12 @@ Códigos de Retorno
 
 .. tip::
 
-   Em adição ao serviço **6.6. Serviço Consultar Contratos por Data de Publicação** mencionado neste manual, é importante destacar que o Portal Nacional de Contratações Públicas (PNCP) oferece uma gama ampla de funcionalidades via API que permitem uma consulta detalhada sobre **CONTRATAÇÕES**.
+   Em adição ao serviço **7.12. Serviço Consultar Contratos por Data de Publicação** mencionado neste manual, é importante destacar que o Portal Nacional de Contratações Públicas (PNCP) oferece uma gama ampla de funcionalidades via API que permitem uma consulta detalhada sobre **CONTRATAÇÕES**. 
 
-Estas funcionalidades estão minuciosamente descritas no Manual de Integração — Portal Nacional de Contratações Públicas - PNCP, disponível no site oficial `www.gov.br <https://www.gov.br>`_. Abaixo, apresentamos uma lista com alguns exemplos de serviços disponíveis:
+Estas funcionalidades estão minuciosamente descritas no Manual de Integração — Portal Nacional de Contratações Públicas - PNCP, disponível no site oficial https://pncp.gov.br/manual/pt-br/latest. Abaixo, apresentamos uma lista com alguns exemplos de serviços disponíveis: 
 
-- 6.5.7. Consultar Documento de um Contrato
-- 6.5.9. Consultar Contratos de uma Contratação
+- 13.8 Consultar Documento de um Contrato/ Empenho (https://pncp.gov.br/manual/pt-br/latest/contrato_empenho/consultar_documento_de_um_contrato_ou_empenho.html) 
+
+- 13.10. Consultar Contratos/Empenhos de uma Contratação (https://pncp.gov.br/manual/pt-br/latest/contrato_empenho/consultar_contratos_ou_empenhos_de_uma_contratacao.html) 
 
 Recomendamos a leitura detalhada do Manual de Integração do PNCP para uma compreensão abrangente de todas as funcionalidades e possibilidades oferecidas pela API.
