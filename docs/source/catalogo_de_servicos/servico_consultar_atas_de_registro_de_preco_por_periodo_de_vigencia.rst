@@ -204,6 +204,14 @@ Dados de retorno
      - usuario
      - String
      - Nome do sistema usuário (Sistema de Contratações Públicas) que publicou a ata.
+   * - 1.23
+     - dataAtualizacaoGlobal 
+     - Data
+     - Data da inclusão do registro da Atas de Registro de Preço no PNCP 
+   * - 1.24
+     - possibilidadeAdesao 
+     - Booleano
+     - Indicador se a Ata permite adesão de não participantes (False = Não / True = Sim) 
 
 Códigos de Retorno
 ~~~~~~~~~~~~~~~~~~
