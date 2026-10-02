@@ -39,7 +39,7 @@ Dados de entrada
 
 .. note::
 
-   Alimentar o parâmetro ``{ano}`` na URL.
+   Alimentar o parâmetro ``{ano}``, ``{codigoClassificacaoSuperior}`` e ``{pagina}`` na URL.
 
 .. list-table::
    :width: 100%
