@@ -1,4 +1,4 @@
-Consultar Contratos/Empenhos por Dados de Atualização Global
+Consultar Contratos e Empenhos por Dados de Atualização Global
 ===============================================================
 
 Detalhes da Requisição
@@ -34,6 +34,10 @@ Exemplo de Requisição (cURL)
 
 Dados de entrada
 ~~~~~~~~~~~~~~~~
+
+.. note::
+
+   Alimentar os parâmetros ``{dataInicial}``, ``{dataFinal}`` e ``{pagina}`` na URL.
 
 .. list-table::
    :width: 100%
