@@ -40,7 +40,7 @@ Dados de entrada
 
 .. note::
 
-   Alimentar os parâmetros de consulta da requisição.
+   Alimentar os parâmetros ``{dataInicial}``, ``{dataFinal}`` e ``{pagina}`` na URL.
 
 .. list-table::
    :width: 100%
