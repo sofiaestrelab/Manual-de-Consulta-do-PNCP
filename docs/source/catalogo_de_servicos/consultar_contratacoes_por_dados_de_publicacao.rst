@@ -37,6 +37,10 @@ Exemplo de Requisição (cURL)
 Dados de entrada
 ~~~~~~~~~~~~~~~~
 
+.. note::
+
+   Alimentar os parâmetros ``{dataInicial}``, ``{dataFinal}``, ``{codigoModalidadeContratacao}`` e ``{pagina}`` na URL.
+
 .. list-table::
    :width: 100%
    :widths: 5 25 10 15 55
