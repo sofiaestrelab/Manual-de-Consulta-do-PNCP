@@ -50,7 +50,7 @@ Dados de entrada
 
 .. note::
 
-   Dados a serem enviados no cabeçalho da requisição.
+   Alimentar os parâmetros ``{dataInicial}``, ``{dataFinal}`` e ``{pagina}`` na URL.
 
 .. list-table::
    :width: 100%
