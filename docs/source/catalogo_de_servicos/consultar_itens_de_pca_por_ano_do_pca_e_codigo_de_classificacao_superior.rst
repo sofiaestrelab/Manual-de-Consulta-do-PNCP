@@ -29,6 +29,10 @@ Exemplo Requisição (cURL)
 Dados de Entrada
 ~~~~~~~~~~~~~~~~
 
+.. note::
+
+   Alimentar os parâmetros ``{anoPca}``, ``{codigoClassificacaoSuperior}`` e ``{pagina}`` na URL.
+
 .. list-table::
    :width: 100%
    :widths: 5 25 10 15 55
@@ -44,22 +48,22 @@ Dados de Entrada
      - anoPca
      - Inteiro 
      - Sim
-     - 
+     - Ano do PCA
    * - 2
      - codigoClassificacaoSuperior
      - Texto
      - Sim
-     -
+     - Código da Classe do material ou Grupo do serviço conforme catálogos de matérias e serviços utilizados pelos portais de compras.
    * - 3
      - pagina
      - Inteiro 
      - Sim
-     -
+     - Número da página que se deseja obter os dados.
    * - 4
      - tamanhoPagina
      - Inteiro 
      - Não
-     -
+     - Por padrão cada página contém no máximo 500 registros, no entanto o tamanho de registros em cada página pode ser ajustado (até o limite de 500 registros) com vistas a tornar a entrega de dados mais rápida.
 
 Dados de retorno
 ~~~~~~~~~~~~~~~~
