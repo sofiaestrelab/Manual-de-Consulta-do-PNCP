@@ -1,7 +1,7 @@
 Consultar PCA por Data de Atualização Global
 ============================================
 
-Serviço de consultar os Plano de Contratações Anual (PCA) por Data de Atualização Global no PNCP.
+Serviço de consultar os Plano de Contratações Anual (PCA) por data de Atualização Global no PNCP.
 
 Detalhes de Requisição
 ~~~~~~~~~~~~~~~~~~~~~~
