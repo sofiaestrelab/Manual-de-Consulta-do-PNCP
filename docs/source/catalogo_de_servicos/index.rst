@@ -4,11 +4,11 @@ Catálogo de Serviços
 .. toctree::
    :maxdepth: 3
 
-   servico_consultar_atas_de_registro_de_preco_por_periodo_de_vigencia
+   consultar_atas_de_registro_de_preco_por_periodo_de_vigencia
    consultar_atas_de_registro_de_preco_por_data_de_atualizacao_global
    consultar_contratacao
-   servico_consultar_contratacoes_por_data_de_publicacao
-   servico_consultar_contratacoes_com_periodo_de_recebimento_de_propostas_em_aberto
+   consultar_contratacoes_por_data_de_publicacao
+   consultar_contratacoes_com_periodo_de_recebimento_de_propostas_em_aberto
    consultar_contratacoes_por_data_de_atualizacao_global
    consultar_contratos_por_data_de_publicacao
    consultar_contratos_ou_empenhos_por_data_de_atualizacao_global
