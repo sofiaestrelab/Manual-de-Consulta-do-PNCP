@@ -1,7 +1,7 @@
-Consultar Itens de PCA por Ano do PCA e Código de Classificação Superior
-=========================================================================
+Consultar PCA por Data de Atualização Global
+============================================
 
-Serviço de consultar os itens do Plano de Contratações Anual (PCA) a partir do ano do PCA e do código de classificação superior.
+Serviço de consultar os Plano de Contratações Anual (PCA) por Data de Atualização Global no PNCP.
 
 Detalhes de Requisição
 ~~~~~~~~~~~~~~~~~~~~~~
@@ -23,7 +23,7 @@ Exemplo Requisição (cURL)
    :linenos:
 
    curl -X 'GET' \
-     'https://pncp.gov.br/api/consulta/v1/pca/?anoPca=2026&codigoClassificacaoSuperior=2&pagina=2' \
+     'https://pncp.gov.br/api/consulta/v1/pca/atualizacao \
      -H 'accept: */*'
 
 Dados de Entrada
@@ -31,7 +31,7 @@ Dados de Entrada
 
 .. note::
 
-   Alimentar os parâmetros ``{anoPca}``, ``{codigoClassificacaoSuperior}`` e ``{pagina}`` na URL.
+   Alimentar os parâmetros ``{dataInicio}``, ``{dataFim}`` e ``{pagina}`` na URL.
 
 .. list-table::
    :width: 100%
@@ -45,21 +45,31 @@ Dados de Entrada
      - Obrigatório
      - Descrição
    * - 1
-     - anoPca
-     - Inteiro 
+     - dataInicio
+     - Data 
      - Sim
-     - Ano do PCA
+     - Data início
    * - 2
-     - codigoClassificacaoSuperior
-     - Texto
+     - dataFim
+     - Data 
      - Sim
-     - Código da Classe do material ou Grupo do serviço conforme catálogos de matérias e serviços utilizados pelos portais de compras.
+     - Data fim
    * - 3
+     - cnpj
+     - Texto 
+     - Não
+     - CNPJ do órgão
+   * - 4
+     - codigoUnidade
+     - Texto 
+     - Não
+     - Código da unidade do órgão    
+   * - 5
      - pagina
      - Inteiro 
      - Sim
      - Número da página que se deseja obter os dados.
-   * - 4
+   * - 6
      - tamanhoPagina
      - Inteiro 
      - Não
