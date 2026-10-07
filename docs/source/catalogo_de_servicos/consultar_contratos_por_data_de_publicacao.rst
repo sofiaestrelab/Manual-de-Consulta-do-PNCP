@@ -377,12 +377,12 @@ Códigos de Retorno
 
 .. tip::
 
-   Em adição ao serviço **7.12. Serviço Consultar Contratos por Data de Publicação** mencionado neste manual, é importante destacar que o Portal Nacional de Contratações Públicas (PNCP) oferece uma gama ampla de funcionalidades via API que permitem uma consulta detalhada sobre **CONTRATAÇÕES**. 
+   Em adição ao serviço **Consultar Contratos por Data de Publicação** mencionado neste manual, é importante destacar que o Portal Nacional de Contratações Públicas (PNCP) oferece uma gama ampla de funcionalidades via API que permitem uma consulta detalhada sobre **CONTRATAÇÕES**. 
 
 Estas funcionalidades estão minuciosamente descritas no Manual de Integração — Portal Nacional de Contratações Públicas - PNCP, disponível no site oficial https://pncp.gov.br/manual/pt-br/latest. Abaixo, apresentamos uma lista com alguns exemplos de serviços disponíveis: 
 
-- 13.8 Consultar Documento de um Contrato/ Empenho (https://pncp.gov.br/manual/pt-br/latest/contrato_empenho/consultar_documento_de_um_contrato_ou_empenho.html) 
+- Consultar Documento de um Contrato/ Empenho (https://pncp.gov.br/manual/pt-br/latest/contrato_empenho/consultar_documento_de_um_contrato_ou_empenho.html) 
 
-- 13.10. Consultar Contratos/Empenhos de uma Contratação (https://pncp.gov.br/manual/pt-br/latest/contrato_empenho/consultar_contratos_ou_empenhos_de_uma_contratacao.html) 
+- Consultar Contratos/Empenhos de uma Contratação (https://pncp.gov.br/manual/pt-br/latest/contrato_empenho/consultar_contratos_ou_empenhos_de_uma_contratacao.html) 
 
 Recomendamos a leitura detalhada do Manual de Integração do PNCP para uma compreensão abrangente de todas as funcionalidades e possibilidades oferecidas pela API.
