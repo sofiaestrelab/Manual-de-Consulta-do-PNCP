@@ -1,5 +1,5 @@
 Consultar Itens de PCA por Ano e Classificação Superior
--------------------------------------------------------
+=======================================================
 
 Serviço que permite recuperar a lista de itens pertencentes a um determinado Plano de Contratações Anual (PCA), opcionalmente filtrando por ordem de classificação superior.
 
