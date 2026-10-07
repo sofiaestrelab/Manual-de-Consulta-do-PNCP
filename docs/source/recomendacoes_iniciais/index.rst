@@ -17,9 +17,7 @@ Conforme a composição descrita a seguir.
 
 **Número de Controle do PCA**
 
-id pca pncp
-
-**Máscara:** ``99999999999999-0-999999/9999``
+(id pca PNCP) (**Máscara:** ``99999999999999-0-999999/9999``)
 
 Cada PCA receberá um número de controle composto por:
 
@@ -30,22 +28,18 @@ Cada PCA receberá um número de controle composto por:
 
 **Número de Controle da Contratação**
 
-id contratacao pncp
-
-**Máscara:** ``99999999999999-1-999999/9999``
+(id contratacao PNCP) (**Máscara:** ``99999999999999-1-999999/9999``)
 
 Cada contratação receberá um número de controle composto por:
 
 - CNPJ do órgão/entidade da contratação (14 dígitos);
 - Dígito ``1`` — marcador que indica tratar-se de uma contratação;
-- Número sequencial da contratação no PNCP*;
+- Número sequencial da contratação no PNCP;
 - Ano da contratação (4 dígitos).
 
 **Número de Controle da Ata**
 
-id ata pncp
-
-**Máscara:** ``99999999999999-1-999999/9999-999999``
+(id ata PNCP) (**Máscara:** ``99999999999999-1-999999/9999-999999``)
 
 Cada ata receberá um número de controle composto por:
 
@@ -54,9 +48,7 @@ Cada ata receberá um número de controle composto por:
 
 **Número de Controle do Contrato**
 
-id contrato pncp
-
-**Máscara:** ``99999999999999-2-999999/9999``
+(id contrato PNCP) (**Máscara:** ``99999999999999-2-999999/9999``)
 
 Cada contrato receberá um número de controle composto por:
 
