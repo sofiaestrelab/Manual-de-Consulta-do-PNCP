@@ -1,5 +1,5 @@
-Serviço Consultar Atas de Registro de Preço por Período de Vigência
-------------------------------------------------------------------------
+Consultar Atas de Registro de Preço por Período de Vigência
+===========================================================
 
 Serviço que permite consultar Atas de Registro de Preços publicadas no PNCP por um período informado.
 
