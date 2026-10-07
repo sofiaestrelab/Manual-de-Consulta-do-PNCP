@@ -10,7 +10,7 @@ Catálogo de Serviços
    servico_consultar_contratacoes_por_data_de_publicacao
    servico_consultar_contratacoes_com_periodo_de_recebimento_de_propostas_em_aberto
    consultar_contratacoes_por_data_de_atualizacao_global
-   consultar_contratatos_por_data_de_publicacao
+   consultar_contratos_por_data_de_publicacao
    consultar_contratos_ou_empenhos_por_data_de_atualizacao_global
    consultar_instrumentos_de_cobranca_por_data_de_inclusao
    consultar_itens_de_pca_por_ano_idusuario_e_classificacao_superior
