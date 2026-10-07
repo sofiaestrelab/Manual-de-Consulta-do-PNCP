@@ -1,5 +1,5 @@
-Serviço Consultar Contratações com Período de Recebimento de Propostas em Aberto
---------------------------------------------------------------------------------
+Consultar Contratações com Período de Recebimento de Propostas em Aberto
+========================================================================
 
 Serviço que permite consultar contratações publicadas no PNCP por um período informado. Opcionalmente poderá ser informado o código da Modalidade da
 Contratação código do IBGE do Município, sigla da Unidade Federativa da Unidade Administrativa do Órgão, CNPJ do Órgão/Entidade, código da Unidade Administrativa do
