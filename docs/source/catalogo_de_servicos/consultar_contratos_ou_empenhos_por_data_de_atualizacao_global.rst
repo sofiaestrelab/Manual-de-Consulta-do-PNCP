@@ -1,6 +1,8 @@
 Consultar Contratos e Empenhos por Dados de Atualização Global
 ===============================================================
 
+Serviços de Consultar Contratos ou empenhos por data de Atualização Global no PNCP.
+
 Detalhes da Requisição
 ~~~~~~~~~~~~~~~~~~~~~~
 
