@@ -29,6 +29,7 @@ Benefícios das Tabelas de Domínio no PNCP:
    categoria_do_processo
    tipo_de_documento
    natureza_juridica
+   normativo_base
    porte_da_empresa
    amparo_legal
    categoria_do_item_do_plano_de_contratacoes
