@@ -14,7 +14,7 @@ Catálogo de Serviços
    consultar_contratos_ou_empenhos_por_data_de_atualizacao_global
    consultar_instrumentos_de_cobranca_por_data_de_inclusao
    consultar_itens_de_pca_por_ano_idusuario_e_classificacao_superior
-   consultar_itens_de_pca_por_ano_do_pca_e_codigo_de_classificacao_superior
+   consultar_pca_por_data_de_atualizacao_global
    consultar_itens_de_pca_por_ano_e_classificacao_superior
    
    
