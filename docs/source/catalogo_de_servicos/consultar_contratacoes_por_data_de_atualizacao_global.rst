@@ -1,7 +1,7 @@
 Consultar Contratações por Data de Atualização Global
 ======================================================
 
-Serviços de Consultar Contratações por data de Atualização Global no PNCP.
+Serviços destinados à consulta das contratações que foram incluídas ou que sofreram alterações no PNCP durante um determinado intervalo de datas, considerando a data de atualização global do registro.
 
 Detalhes de Requisição
 ~~~~~~~~~~~~~~~~~~~~~~
