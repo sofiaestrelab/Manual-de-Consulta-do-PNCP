@@ -1,7 +1,7 @@
 Consultar Contratações por Data de Publicação
 ===============================================
 
-Serviço que permite consultar Contratações por Data de Publicação
+Serviço que permite consultar Contratações por Data de Publicação.
 
 Detalhes da Requisição
 ~~~~~~~~~~~~~~~~~~~~~~
