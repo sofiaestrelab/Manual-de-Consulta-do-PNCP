@@ -359,19 +359,19 @@ Códigos de Retorno
 
 .. tip::
 
-   Em adição ao serviço **6.4. Serviço Consultar Contratações com Período de Recebimento de Propostas em Aberto** mencionado neste manual, é importante destacar que o Portal Nacional de Contratações Públicas (PNCP) oferece uma gama ampla de funcionalidades via API que permitem uma consulta detalhada sobre **Contratações**.
+   Em adição ao serviço **Serviço Consultar Contratações com Período de Recebimento de Propostas em Aberto** mencionado neste manual, é importante destacar que o Portal Nacional de Contratações Públicas (PNCP) oferece uma gama ampla de funcionalidades via API que permitem uma consulta detalhada sobre **Contratações**.
 
 Essas funcionalidades estão descritas no **Manual de Integração — Portal Nacional de Contratações Públicas (PNCP)**, disponível no site oficial do Governo Federal.
 
 Alguns exemplos de serviços disponíveis são:
 
-- 6.3.5. Consultar uma Contratação
-- 6.3.8. Consultar Todos os Documentos de uma Contratação
-- 6.3.13. Consultar Itens de uma Contratação
-- 6.3.14. Consultar Item de uma Contratação
-- 6.3.17. Consultar Resultados de Item de uma Contratação
-- 6.3.18. Consultar um Resultado Específico de Item de uma Contratação
-- 6.3.19. Consultar Histórico da Contratação
-- 6.3.22. Consultar Imagens de um Item de Contratação
+- Consultar uma Contratação
+- Consultar Todos os Documentos de uma Contratação
+- Consultar Itens de uma Contratação
+- Consultar Item de uma Contratação
+- Consultar Resultados de Item de uma Contratação
+- Consultar um Resultado Específico de Item de uma Contratação
+- Consultar Histórico da Contratação
+- Consultar Imagens de um Item de Contratação
 
 Recomenda-se a leitura detalhada do Manual de Integração do PNCP para uma compreensão abrangente de todas as funcionalidades e possibilidades oferecidas pela API.
