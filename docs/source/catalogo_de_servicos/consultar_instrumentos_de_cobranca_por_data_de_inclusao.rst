@@ -1,7 +1,7 @@
 Consultar Instrumentos de Cobrança por Data de Inclusão
 =======================================================
 
-Servços de consulta dos Instrumentos de Cobrança por data de inclusão no PNCP.
+Serviço destinado à consulta dos Instrumentos de Cobrança por data de inclusão no PNCP.
 
 
 Detalhes de Requisição
