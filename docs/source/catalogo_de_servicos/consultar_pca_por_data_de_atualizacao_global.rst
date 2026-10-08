@@ -1,7 +1,7 @@
 Consultar PCA por Data de Atualização Global
 ============================================
 
-Serviços destinados à consulta dos Planos de Contratações Anual (PCA) que foram incluídos ou que sofreram alterações no PNCP durante um determinado intervalo de datas, considerando a data de atualização global do registro.
+Serviço destinado à consulta dos Planos de Contratações Anual (PCA) que foram incluídos ou que sofreram alterações no PNCP durante um determinado intervalo de datas, considerando a data de atualização global do registro.
 
 Detalhes de Requisição
 ~~~~~~~~~~~~~~~~~~~~~~
