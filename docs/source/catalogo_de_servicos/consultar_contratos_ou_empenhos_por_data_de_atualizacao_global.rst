@@ -1,7 +1,7 @@
 Consultar Contratos e Empenhos por Data de Atualização Global
 ===============================================================
 
-Serviços de Consultar Contratos ou empenhos por data de Atualização Global no PNCP.
+Serviços destinados à consulta dos contratos que foram incluídos ou que sofreram alterações no PNCP durante um determinado intervalo de datas, considerando a data de atualização global do registro.
 
 Detalhes da Requisição
 ~~~~~~~~~~~~~~~~~~~~~~
