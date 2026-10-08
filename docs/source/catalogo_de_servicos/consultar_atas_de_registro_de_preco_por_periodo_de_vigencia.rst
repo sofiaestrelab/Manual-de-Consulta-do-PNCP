@@ -243,12 +243,12 @@ Códigos de Retorno
 Observação
 ~~~~~~~~~~
 
-Em adição ao serviço **6.5. Serviço Consultar Atas de Registro de Preço por Período de Vigência** mencionado neste manual, é importante destacar que o Portal Nacional de Contratações Públicas (PNCP) oferece uma gama ampla de funcionalidades via API que permitem uma consulta detalhada sobre **CONTRATAÇÕES**.
+Em adição ao serviço **Serviço Consultar Atas de Registro de Preço por Período de Vigência** mencionado neste manual, é importante destacar que o Portal Nacional de Contratações Públicas (PNCP) oferece uma gama ampla de funcionalidades via API que permitem uma consulta detalhada sobre **CONTRATAÇÕES**.
 
-Estas funcionalidades estão minuciosamente descritas no Manual de Integração — Portal Nacional de Contratações Públicas - PNCP, disponível no site oficial `www.gov.br <https://www.gov.br>`_. Abaixo, apresentamos uma lista com alguns exemplos de serviços disponíveis:
+Estas funcionalidades estão minuciosamente descritas no Manual de Integração — Portal Nacional de Contratações Públicas - PNCP, disponível no site oficial `MANUAL DE INTEGRAÇÃO DO PNCP <https://pncp.gov.br/manual/pt-br/latest/>`_. Abaixo, apresentamos uma lista com alguns exemplos de serviços disponíveis:
 
-- 6.4.4. Consultar Atas de Registro de Preço por Compra
-- 6.4.8. Consultar Todos os Documentos de uma Ata
-- 6.4.9. Consultar Documento de uma Ata
+- Consultar Atas de Registro de Preço por Compra
+- Consultar Todos os Documentos de uma Ata
+- Consultar Documento de uma Ata
 
 Recomendamos a leitura detalhada do Manual de Integração do PNCP para uma compreensão abrangente de todas as funcionalidades e possibilidades oferecidas pela API.
