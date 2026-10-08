@@ -1,7 +1,7 @@
 Consultar Atas de Registro de Preço por Data de Atualização Global
 ==================================================================
 
-Serviço responsável por consultar Atas de Registro de Preço por data de atualização global.
+Serviços destinados à consulta das Atas que foram incluídas ou que sofreram alterações no PNCP durante um determinado intervalo de datas, considerando a data de atualização global do registro.
 
 Detalhes de Requisição
 ~~~~~~~~~~~~~~~~~~~~~~
