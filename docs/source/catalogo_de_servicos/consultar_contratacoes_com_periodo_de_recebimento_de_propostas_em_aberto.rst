@@ -33,7 +33,7 @@ Exemplo Requisição (cURL)
    :linenos:
 
    curl -k -X 'GET' \
-     "${BASE_URL}/v1/contratacoes/proposta?dataFinal=20230831&codigoModalidadeContratacao=8&pagina=1" \
+     "${BASE_URL}/v1/contratacoes/proposta?dataFinal=20230831&codigoModalidadeContratacao=6&pagina=1" \
      -H "accept: */*"
 
 Dados de entrada
