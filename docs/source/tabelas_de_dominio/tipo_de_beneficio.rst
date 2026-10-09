@@ -1,16 +1,4 @@
 Tipo de Benefício
 =================
 
-O campo ``tipoBeneficioId`` é utilizado para identificar a aplicação dos benefícios legais e tratamentos diferenciados concedidos a Microempresas (ME) e Empresas de Pequeno Porte (EPP) no objeto da contratação, conforme previsto na legislação vigente.
-
-- (código = 1) **Participação exclusiva para ME/EPP**
-
-- (código = 2) **Subcontratação para ME/EPP**
-
-- (código = 3) **Cota reservada para ME/EPP**
-
-- (código = 4) **Sem benefício**
-
-- (código = 5) **Não se aplica**
-
-- (código = 6) **Empate ficto**
+Para consulta aos tipos de Benefício, acesse a página no Portal PNCP pelo endereço https://pncp.gov.br/app/entidades-dominio. Para ajudar na integração com o PNCP foram disponibilizados os serviços para consulta do Tipo de Benefício.
