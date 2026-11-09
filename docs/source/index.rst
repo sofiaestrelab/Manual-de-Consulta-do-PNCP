@@ -7,6 +7,7 @@ Este documento técnico tem por finalidade orientar órgãos públicos, entidade
 	:width: 100%
 	:align: center
 	:alt: Capa Manual de Consulta
+\
 
 Sumário
 -------
