@@ -54,9 +54,9 @@ master_doc = 'index'
 # Source file patterns
 source_suffix = '.rst'
 
-# html_logo = "_static/img/logo-pncp-transparente-branco.png"
+html_logo = "_static/img/logo-pncp-transparente-branco.png"
 
-# html_theme_options = {
-#     'logo_only': False,
-#     'display_version': True,
-# }
+html_theme_options = {
+     'logo_only': False,
+     'display_version': True
+}
