@@ -18,6 +18,7 @@ Sumário
 
    contracapa
    formatos_de_visualizacao
+   historico_de_versoes
    objetivo
    protocolo_de_comunicacao/index
    acesso_ao_pncp/index
