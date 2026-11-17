@@ -8,3 +8,31 @@ funcionalidades no portal. O uso do histórico de versões contribui para a prev
 
 Versão: 2.0 (atual)
 -------------------
+
+.. Attention::
+
+   As alterações da versão 2.6 estão destacadas em amarelo, conforme o exemplo a seguir:
+
+.. list-table::
+   :width: 100%
+   :widths: 5 10 15 55
+   :header-rows: 1
+   :class: quebra-linha-ultima-coluna
+
+   * - Id
+     - Campo
+     - Tipo
+     - Descrição
+   * - 1
+     - cnpj
+     - Texto
+     - CNPJ do órgão do contrato/empenho
+   * - :destaque-amarelo-claro:`2`
+     - :destaque-amarelo-claro:`ano`
+     - :destaque-amarelo-claro:`Inteiro`
+     - :destaque-amarelo-claro:`Ano do contrato/empenho`
+   * - 3
+     - sequencialContrato
+     - Inteiro
+     - Sequencial do contrato/empenho no PNCP; número sequencial gerado no momento da inclusão
+
