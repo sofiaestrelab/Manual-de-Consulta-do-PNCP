@@ -1,11 +1,10 @@
-
 Estrutura Organizacional e Equipe
 ==================================
 
 **Ministra:** Esther Dweck
 
 Secretaria de Gestão e Inovação – SEGES
----------------------------------------
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 **Secretário:** Roberto Seara Machado Pojo Rego
 
@@ -19,33 +18,33 @@ Diretoria de Normas e Sistemas de Logística – DELOG
 **Diretor Substituto:** Alexandre Augusto Villain
 
 Coordenação-Geral de Soluções Inovadoras em Logística – CGSIL
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 **Coordenador-Geral:** Alexandre Augusto Villain
 
 **Coordenador-Geral Substituto:** Magnum Costa de Oliveira
 
 Coordenação de Qualidade de Atendimento – COQUAT
-""""""""""""""""""""""""""""""""""""""""""""""""""
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 **Coordenadora:** Camilla Pais Faccin Bottecchia
 
 Coordenação de Comunicação e Marketing – COMKT
-"""""""""""""""""""""""""""""""""""""""""""""""
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 **Coordenadora:** Marina Milena da Silva
 
 **Coordenador Substituto:** Êmili Adami Rossetti
 
 Projeto Gráfico
----------------
+~~~~~~~~~~~~~~~~
 
 - André Siqueira de Azevedo
 - Regiane Feltrin de Melo
 
 
 Comitê Gestor da Rede Nacional de Contratações Públicas – CGRNCP
-----------------------------------------------------------------
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 **Secretário Executivo:** Carlos Eduardo Viana de Melo
 
@@ -59,7 +58,7 @@ Coordenação do Portal Nacional de Contratações Públicas – COPNCP
 **Coordenador Substituto:** Gibran Coelho de Miranda Sodré
 
 Integrantes da Equipe de Coordenação do PNCP
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 - Fabiano Nogueira Brandão
 - Sofia Estrela Bernardes
