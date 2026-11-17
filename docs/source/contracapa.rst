@@ -28,6 +28,7 @@ Coordenação de Qualidade de Atendimento – COQUAT
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 **Coordenadora:** Camilla Pais Faccin Bottecchia
+**Coordenador Substituto:** Adriane Maria Pignatti
 
 Coordenação de Comunicação e Marketing – COMKT
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
