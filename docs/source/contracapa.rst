@@ -1,6 +1,6 @@
 
-Ministério da Gestão e da Inovação em Serviços Públicos – MGI
-=============================================================
+Estrutura Organizacional e Equipe
+==================================
 
 **Ministra:** Esther Dweck
 
@@ -29,8 +29,6 @@ Coordenação de Qualidade de Atendimento – COQUAT
 """"""""""""""""""""""""""""""""""""""""""""""""""
 
 **Coordenadora:** Camilla Pais Faccin Bottecchia
-
-**Coordenador Substituto:** Ricardo de Oliveira Alves
 
 Coordenação de Comunicação e Marketing – COMKT
 """""""""""""""""""""""""""""""""""""""""""""""
