@@ -11,7 +11,7 @@ Versão: 2.0 (atual)
 
 .. Attention::
 
-   As alterações da versão 2.6 estão destacadas em amarelo, conforme o exemplo a seguir:
+   As alterações da versão 2.0 estão destacadas em amarelo, conforme o exemplo a seguir:
 
 .. list-table::
    :width: 100%
