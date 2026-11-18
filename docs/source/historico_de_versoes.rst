@@ -40,6 +40,19 @@ Versão: 2.0 (atual)
 
 :doc:`Normativo Base <../tabelas_de_dominio/normativo_base>`
 
+**Catálogo de Serviços**
+
+:doc:`Consultar Atas de Registro de Preço por Data de Atualização Global <../catalogo_de_servicos/consultar_atas_de_registro_de_preco_por_data_de_atualizacao_global>`
+
+:doc:`Consultar Contratação <../catalogo_de_servicos/consultar_contratacao>`
+
+:doc:`Consultar Contratações por Data de Atualização Global <../catalogo_de_servicos/consultar_contratacoes_por_data_de_atualizacao_global>`
+
+:doc:`Consultar Contratos e Empenhos por Data de Atualização Global <../catalogo_de_servicos/consultar_contratos_ou_empenhos_por_data_de_atualizacao_global>`
+
+:doc:`Consultar Instrumentos de Cobrança por Data de Inclusão <../catalogo_de_servicos/consultar_instrumentos_de_cobranca_por_data_de_inclusao>`
+
+:doc:`Consultar PCA por Data de Atualização Global <../catalogo_de_servicos/consultar_pca_por_data_de_atualizacao_global>`
 
 Versão: 1.0
 ------------
