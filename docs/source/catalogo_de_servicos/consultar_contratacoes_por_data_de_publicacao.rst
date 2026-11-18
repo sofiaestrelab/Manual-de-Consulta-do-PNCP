@@ -306,10 +306,10 @@ Dados de retorno
      - emendaParlamentar
      - Booleano
      - Marcador de existência de emenda parlamentar na contratação (False - Não / True - Sim).
-   * - 1.23
-     - numeroControlePNCP
-     - Texto
-     - Número de Controle PNCP da contratação (ID Contratação PNCP).
+   * - :destaque-azul-claro:`1.23`
+     - :destaque-azul-claro:`numeroControlePNCP`
+     - :destaque-azul-claro:`Texto`
+     - :destaque-azul-claro:`Número de Controle PNCP da contratação (ID Contratação PNCP).`
    * - 1.24
      - modalidadeId
      - Inteiro
