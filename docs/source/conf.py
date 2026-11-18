@@ -10,6 +10,7 @@ def destaque_amarelo_claro_role(name, rawtext, text, lineno, inliner, options={}
     return [node], []
 
 roles.register_local_role('destaque-amarelo-claro', destaque_amarelo_claro_role)
+roles.register_local_role('destaque-azul-claro', destaque_azul_claro_role)
 
 # Adiciona o diretório atual ao path
 sys.path.insert(0, os.path.abspath('.'))
