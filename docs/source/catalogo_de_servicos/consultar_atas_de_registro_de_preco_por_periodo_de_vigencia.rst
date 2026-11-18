@@ -78,16 +78,16 @@ Dados de entrada
      - Inteiro
      - Não
      - Identificador do sistema usuário (Sistema de Contratações Públicas) que publicou a ata.
-   * - 4
-     - cnpj
-     - String
-     - Não
-     - CNPJ do órgão originário da contratação informado na inclusão (proprietário da contratação).
-   * - 5
-     - codigoUnidadeAdministrativa
-     - String
-     - Não
-     - Código da Unidade Administrativa do Órgão originário da contratação informado na inclusão (proprietário da contratação).
+   * - :destaque-azul-claro:`4`
+     - :destaque-azul-claro:`cnpj`
+     - :destaque-azul-claro:`String`
+     - :destaque-azul-claro:`Não`
+     - :destaque-azul-claro:`CNPJ do órgão originário da contratação informado na inclusão (proprietário da contratação).`
+   * - :destaque-azul-claro:`5`
+     - :destaque-azul-claro:`codigoUnidadeAdministrativa`
+     - :destaque-azul-claro:`String`
+     - :destaque-azul-claro:`Não`
+     - :destaque-azul-claro:`Código da Unidade Administrativa do Órgão originário da contratação informado na inclusão (proprietário da contratação).`
    * - 6
      - pagina
      - Inteiro
@@ -116,10 +116,10 @@ Dados de retorno
      - Atas
      - Agrupador
      - Agrupador da lista de atas
-   * - 1.1
-     - numeroControlePNCPAta
-     - String
-     - Número de Controle PNCP da Ata (id Ata PNCP)
+   * - :destaque-azul-claro:`1.1`
+     - :destaque-azul-claro:`numeroControlePNCPAta`
+     - :destaque-azul-claro:`String`
+     - :destaque-azul-claro:`Número de Controle PNCP da Ata (id Ata PNCP)`
    * - 1.2
      - numeroControlePNCPCompra
      - String
