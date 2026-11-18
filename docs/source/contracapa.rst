@@ -1,6 +1,12 @@
 Estrutura Organizacional e Equipe
 ==================================
 
+.. rst-class:: fonte-grande
+ 
+O Portal Nacional de Contratações Públicas (PNCP) é o sítio
+eletrônico oficial destinado à divulgação centralizada
+dos atos exigidos pela Lei nº 14.133/2021.
+
 **Ministra:** Esther Dweck
 
 .. rst-class:: fonte-grande
