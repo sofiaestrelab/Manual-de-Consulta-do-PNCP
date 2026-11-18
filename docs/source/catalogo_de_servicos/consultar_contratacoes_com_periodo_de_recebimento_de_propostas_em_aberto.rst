@@ -79,11 +79,11 @@ Dados de entrada
      - String
      - Não
      - CNPJ do órgão originário da contratação informado na inclusão (proprietário da contratação).
-   * - 6
-     - codigoUnidadeAdministrativa
-     - String
-     - Não
-     - Código da Unidade Administrativa do Órgão originário da contratação informado na inclusão (proprietário da contratação).
+   * - :destaque-azul-claro:`6`
+     - :destaque-azul-claro:`codigoUnidadeAdministrativa`
+     - :destaque-azul-claro:`String`
+     - :destaque-azul-claro:`Não`
+     - :destaque-azul-claro:`Código da Unidade Administrativa do Órgão originário da contratação informado na inclusão (proprietário da contratação).`
    * - 7
      - idUsuario
      - Inteiro
