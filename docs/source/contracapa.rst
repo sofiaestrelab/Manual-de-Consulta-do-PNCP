@@ -3,9 +3,9 @@ Estrutura Organizacional e Equipe
 
 **Ministra:** Esther Dweck
 
-.. rst-class:: fonte-grande
+.. rst-class:: texto-grande-destaque
 
-**Secretaria de Gestão e Inovação – SEGES**
+Secretaria de Gestão e Inovação – SEGES
 
 **Secretário:** Roberto Seara Machado Pojo Rego
 
