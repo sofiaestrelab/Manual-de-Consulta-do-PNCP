@@ -67,5 +67,6 @@ Versão: 1.0
      - Sequencial do contrato/empenho no PNCP; número sequencial gerado no momento da inclusão
 
 **Catálogo de Serviços**
-`Serviço Consultar Contratações por Data de Publicação  <../catalogo_de_servicos/consultar_contratacoes_por_data_de_publicacao.rst>`_
+
+:doc:`Serviço Consultar Contratações por Data de Publicação <../catalogo_de_servicos/consultar_contratacoes_por_data_de_publicacao>`
 
