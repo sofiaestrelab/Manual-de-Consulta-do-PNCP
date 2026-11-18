@@ -51,6 +51,14 @@ kbd {
     display: inline; 
 }
 
+.destaque-azul-claro {
+    background-color: #ADD8E6;
+    border-radius: 4px;
+    text-align: justify;
+    padding: 2px 6px;
+    display: inline;
+}
+
 /*Quebra a linha das colunas 2 e ultima */
 table.quebra-linha-dois-ultima :is(td, th):nth-child(2),
 table.quebra-linha-dois-ultima :is(td, th):last-child {
