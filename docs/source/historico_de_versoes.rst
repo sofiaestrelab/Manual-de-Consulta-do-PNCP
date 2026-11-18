@@ -69,4 +69,6 @@ Versão: 1.0
 **Catálogo de Serviços**
 
 :doc:`Serviço Consultar Contratações por Data de Publicação <../catalogo_de_servicos/consultar_contratacoes_por_data_de_publicacao>`
-
+:doc:`Serviço Consultar Contratações com Período de Recebimento de Propostas em Aberto  <../catalogo_de_servicos/consultar_contratacoes_com_periodo_de_recebimento_de_propostas_em_aberto>`
+:doc:`Serviço Consultar Atas de Registro de Preço por Período de Vigência <../catalogo_de_servicos/consultar_atas_de_registro_de_preco_por_periodo_de_vigencia>`
+:doc:`Serviço Consultar Contratos por Data de Publicação <../catalogo_de_servicos/consultar_contratos_por_data_de_publicacao>`
