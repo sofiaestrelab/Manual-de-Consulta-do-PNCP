@@ -83,8 +83,7 @@ table.quebra-linha-dois-ultima :is(td, th):last-child {
 }
  
 /* Texto destacado */
-.texto-destaque {
-    font-size: 17px !important;
+.texto-grande-destaque {
+    font-size: 24px !important;
     font-weight: bold;
-    color: #005A9C;
 }
