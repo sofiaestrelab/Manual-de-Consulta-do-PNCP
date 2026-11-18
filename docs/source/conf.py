@@ -9,6 +9,10 @@ def destaque_amarelo_claro_role(name, rawtext, text, lineno, inliner, options={}
     node = nodes.inline(text, text, classes=['destaque-amarelo-claro'])
     return [node], []
 
+def destaque_azul_claro_role(name, rawtext, text, lineno, inliner, options={}, content=[]):
+    node = nodes.inline(rawtext, text, classes=['destaque-azul-claro'])
+    return [node], []
+
 roles.register_local_role('destaque-amarelo-claro', destaque_amarelo_claro_role)
 roles.register_local_role('destaque-azul-claro', destaque_azul_claro_role)
 
