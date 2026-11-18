@@ -16,8 +16,8 @@ Sumário
    :maxdepth: 3
    :numbered:
 
-   contracapa
    formatos_de_visualizacao
+   contracapa
    historico_de_versoes
    objetivo
    protocolo_de_comunicacao/index
