@@ -69,11 +69,11 @@ Dados de entrada
      - String
      - Não
      - CNPJ do órgão originário da contratação informado na inclusão (proprietário do contrato)
-   * - 4
-     - codigoUnidadeAdministrativa
-     - String
-     - Não
-     - Código da Unidade Administrativa do Órgão originário da contratação informado na inclusão (proprietário do contrato)
+   * - :destaque-azul-claro:`4`
+     - :destaque-azul-claro:`codigoUnidadeAdministrativa`
+     - :destaque-azul-claro:`String`
+     - :destaque-azul-claro:`Não`
+     - :destaque-azul-claro:`Código da Unidade Administrativa do Órgão originário da contratação informado na inclusão (proprietário do contrato)`
    * - 5
      - usuarioId
      - Inteiro
@@ -103,10 +103,10 @@ Dados de retorno
      - Campo
      - Tipo
      - Descrição
-   * - 1
-     - numeroControlePNCP
-     - String
-     - Número de controle PNCP do contrato (id contrato PNCP)
+   * - :destaque-azul-claro:`1`
+     - :destaque-azul-claro:`numeroControlePNCP`
+     - :destaque-azul-claro:`String`
+     - :destaque-azul-claro:`Número de controle PNCP do contrato (id contrato PNCP)`
    * - 2
      - numeroControlePNCPCompra
      - String
