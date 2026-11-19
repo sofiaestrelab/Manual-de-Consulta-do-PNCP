@@ -4,6 +4,8 @@
 As tabelas de domínio têm como objetivo categorizar os dados relacionados a licitações e contratos, assegurando que todas as esferas públicas sigam um padrão nas contratações. Ao utilizar essas tabelas, as plataformas integradas ao Portal garantem a padronização das informações enviadas, o que otimiza a busca, a análise e o acompanhamento das contratações públicas.
 O uso das tabelas de domínio contribui para a transparência, a eficiência e o controle das informações sobre contratações públicas.
 
+Além das tabelas de domínio apresentadas nesta seção, o PNCP disponibiliza outros domínios utilizados nos processos de integração. Para consultar a relação completa, incluindo seus códigos, descrições e orientações de utilização, acesse o `Manual de Integração do PNCP – Tabelas de Domínio <https://pncp.gov.br/manual/pt-br/latest/tabelas_de_dominio/index.html>`_.
+
 Benefícios das Tabelas de Domínio no PNCP:
 
   - Padronização: Assegura que todas as plataformas integradas utilizem os mesmos dados, evitando divergências e inconsistências.
