@@ -52,41 +52,41 @@ Dados de entrada
      - Tipo
      - Obrigatório
      - Descrição
-   * - 1
-     - dataInicial
-     - String
-     - Sim
-     - Data inicial do período a ser consultado no formato AAAAMMDD.
-   * - 2
-     - dadosFinal
-     - String
-     - Sim
-     - Data final do período a ser consultado no formato AAAAMMDD.
-   * - 3
-     - idUsuario
-     - Inteiro
-     - Não
-     - Identificador do sistema usuário (Sistema de Contratações Públicas) que publicou a ata.
-   * - 4
-     - cnpj
-     - String
-     - Não
-     - CNPJ do órgão originário da contratação informado na inclusão (proprietário da contratação).
-   * - 5
-     - codigoUnidadeAdministrativa
-     - String
-     - Não
-     - Código da Unidade Administrativa do Órgão originário da contratação informado na inclusão (proprietário da contratação).
-   * - 6
-     - pagina
-     - Inteiro
-     - Sim
-     - Número da página que se deseja obter os dados.
-   * - 7
-     - tamanhoPagina
-     - Inteiro
-     - Não
-     - Por padrão cada página contém no máximo 500 registros. O tamanho da página pode ser ajustado (até o limite de 500 registros) para tornar a entrega dos dados mais rápida.
+   * - :destaque-amarelo-claro:`1`
+     - :destaque-amarelo-claro:`dataInicial`
+     - :destaque-amarelo-claro:`String`
+     - :destaque-amarelo-claro:`Sim`
+     - :destaque-amarelo-claro:`Data inicial do período a ser consultado no formato AAAAMMDD.`
+   * - :destaque-amarelo-claro:`2`
+     - :destaque-amarelo-claro:`dadosFinal`
+     - :destaque-amarelo-claro:`String`
+     - :destaque-amarelo-claro:`Sim`
+     - :destaque-amarelo-claro:`Data final do período a ser consultado no formato AAAAMMDD.`
+   * - :destaque-amarelo-claro:`3`
+     - :destaque-amarelo-claro:`idUsuario`
+     - :destaque-amarelo-claro:`Inteiro`
+     - :destaque-amarelo-claro:`Não`
+     - :destaque-amarelo-claro:`Identificador do sistema usuário (Sistema de Contratações Públicas) que publicou a ata.`
+   * - :destaque-amarelo-claro:`4`
+     - :destaque-amarelo-claro:`cnpj`
+     - :destaque-amarelo-claro:`String`
+     - :destaque-amarelo-claro:`Não`
+     - :destaque-amarelo-claro:`CNPJ do órgão originário da contratação informado na inclusão (proprietário da contratação).`
+   * - :destaque-amarelo-claro:`5`
+     - :destaque-amarelo-claro:`codigoUnidadeAdministrativa`
+     - :destaque-amarelo-claro:`String`
+     - :destaque-amarelo-claro:`Não`
+     - :destaque-amarelo-claro:`Código da Unidade Administrativa do Órgão originário da contratação informado na inclusão (proprietário da contratação).`
+   * - :destaque-amarelo-claro:`6`
+     - :destaque-amarelo-claro:`pagina`
+     - :destaque-amarelo-claro:`Inteiro`
+     - :destaque-amarelo-claro:`Sim`
+     - :destaque-amarelo-claro:`Número da página que se deseja obter os dados.`
+   * - :destaque-amarelo-claro:`7`
+     - :destaque-amarelo-claro:`tamanhoPagina`
+     - :destaque-amarelo-claro:`Inteiro`
+     - :destaque-amarelo-claro:`Não`
+     - :destaque-amarelo-claro:`Por padrão cada página contém no máximo 500 registros. O tamanho da página pode ser ajustado (até o limite de 500 registros) para tornar a entrega dos dados mais rápida.`
 
 Dados de retorno
 ~~~~~~~~~~~~~~~~
@@ -101,127 +101,127 @@ Dados de retorno
      - Campo
      - Tipo
      - Descrição
-   * - 1
-     - data
-     - Lista
-     - Lista de Atas de Registro de Preço.
-   * - 1.1
-     - numeroControlePNCPAta
-     - String
-     - Número de controle PNCP da Ata.
-   * - 1.2
-     - numeroAtaRegistroPreco
-     - Texto (50)
-     - Número da Ata no sistema de origem.
-   * - 1.3
-     - anoAta
-     - Inteiro
-     - Ano da Ata.
-   * - 1.4
-     - numeroControlePncpCompra
-     - String
-     - Número de controle PNCP da compra.
-   * - 1.5
-     - cancelado
-     - Booleano
-     - Indicador de cancelamento da Ata.
-   * - 1.6
-     - dataCancelamento
-     - Data
-     - Data de cancelamento da Ata.
-   * - 1.7
-     - dataAssinatura
-     - Data
-     - Data de assinatura da Ata.
-   * - 1.8
-     - vigenciaInicio
-     - Data
-     - Data de início da vigência da Ata.
-   * - 1.9
-     - vigenciaFim
-     - Data
-     - Data de término da vigência da Ata.
-   * - 1.10
-     - dataPublicacaoPncp
-     - Data
-     - Data da publicação da Ata no PNCP.
-   * - 1.11
-     - dataInclusao
-     - Data
-     - Data da inclusão do registro da Ata no PNCP.
-   * - 1.12
-     - dataAtualizacao
-     - Data
-     - Data da última atualização do registro da Ata.
-   * - 1.13
-     - dataAtualizacaoGlobal
-     - Data
-     - Data da última atualização global do registro da Ata.
-   * - 1.14
-     - usuario
-     - String
-     - Nome do sistema usuário (Sistema de Contratações Públicas) que publicou a Ata.
-   * - 1.15
-     - objetoContratacao
-     - String
-     - Descrição do objeto referente à Ata.
-   * - 1.16
-     - cnpjOrgao
-     - String
-     - CNPJ do órgão referente à Ata.
-   * - 1.17
-     - nomeOrgao
-     - String
-     - Razão social do órgão referente à Ata.
-   * - 1.18
-     - cnpjOrgaoSubrogado
-     - String
-     - CNPJ do órgão subrogado referente à Ata.
-   * - 1.19
-     - nomeOrgaoSubrogado
-     - String
-     - Razão social do órgão subrogado referente à Ata.
-   * - 1.20
-     - codigoUnidadeOrgao
-     - String
-     - Código da unidade administrativa do órgão referente à Ata.
-   * - 1.21
-     - nomeUnidadeOrgao
-     - String
-     - Nome da unidade administrativa do órgão referente à Ata.
-   * - 1.22
-     - codigoUnidadeOrgaoSubrogado
-     - string
-     - Código da unidade administrativa subrogada do órgão subrogado referente à Ata.
-   * - 1.23
-     - nomeUnidadeOrgaoSubrogado
-     - String
-     - Nome da unidade administrativa subrogada do órgão subrogado referente à Ata.
-   * - 1.24
-     - possibilidadeAdesao
-     - Booleano
-     - Indicador se a Ata permite adesão de não participantes (False = Não / True = Sim).
-   * - 2
-     - totalRegistros
-     - Inteiro
-     - Total de registros de Atas encontrados
-   * - 3
-     - totalPaginas
-     - Inteiro
-     - Total de páginas.
-   * - 4
-     - numeroPagina
-     - Inteiro
-     - Número da página consultada.
-   * - 5
-     - paginasRestantes
-     - Inteiro
-     - Quantidade de páginas restantes.
-   * - 6
-     - empty
-     - Booleano
-     - Indica se o retorno está vazio.
-  
+   * - :destaque-amarelo-claro:`1`
+     - :destaque-amarelo-claro:`data`
+     - :destaque-amarelo-claro:`Lista`
+     - :destaque-amarelo-claro:`Lista de Atas de Registro de Preço.`
+   * - :destaque-amarelo-claro:`1.1`
+     - :destaque-amarelo-claro:`numeroControlePNCPAta`
+     - :destaque-amarelo-claro:`String`
+     - :destaque-amarelo-claro:`Número de controle PNCP da Ata.`
+   * - :destaque-amarelo-claro:`1.2`
+     - :destaque-amarelo-claro:`numeroAtaRegistroPreco`
+     - :destaque-amarelo-claro:`Texto (50)`
+     - :destaque-amarelo-claro:`Número da Ata no sistema de origem.`
+   * - :destaque-amarelo-claro:`1.3`
+     - :destaque-amarelo-claro:`anoAta`
+     - :destaque-amarelo-claro:`Inteiro`
+     - :destaque-amarelo-claro:`Ano da Ata.`
+   * - :destaque-amarelo-claro:`1.4`
+     - :destaque-amarelo-claro:`numeroControlePncpCompra`
+     - :destaque-amarelo-claro:`String`
+     - :destaque-amarelo-claro:`Número de controle PNCP da compra.`
+   * - :destaque-amarelo-claro:`1.5`
+     - :destaque-amarelo-claro:`cancelado`
+     - :destaque-amarelo-claro:`Booleano`
+     - :destaque-amarelo-claro:`Indicador de cancelamento da Ata.`
+   * - :destaque-amarelo-claro:`1.6`
+     - :destaque-amarelo-claro:`dataCancelamento`
+     - :destaque-amarelo-claro:`Data`
+     - :destaque-amarelo-claro:`Data de cancelamento da Ata.`
+   * - :destaque-amarelo-claro:`1.7`
+     - :destaque-amarelo-claro:`dataAssinatura`
+     - :destaque-amarelo-claro:`Data`
+     - :destaque-amarelo-claro:`Data de assinatura da Ata.`
+   * - :destaque-amarelo-claro:`1.8`
+     - :destaque-amarelo-claro:`vigenciaInicio`
+     - :destaque-amarelo-claro:`Data`
+     - :destaque-amarelo-claro:`Data de início da vigência da Ata.`
+   * - :destaque-amarelo-claro:`1.9`
+     - :destaque-amarelo-claro:`vigenciaFim`
+     - :destaque-amarelo-claro:`Data`
+     - :destaque-amarelo-claro:`Data de término da vigência da Ata.`
+   * - :destaque-amarelo-claro:`1.10`
+     - :destaque-amarelo-claro:`dataPublicacaoPncp`
+     - :destaque-amarelo-claro:`Data`
+     - :destaque-amarelo-claro:`Data da publicação da Ata no PNCP.`
+   * - :destaque-amarelo-claro:`1.11`
+     - :destaque-amarelo-claro:`dataInclusao`
+     - :destaque-amarelo-claro:`Data`
+     - :destaque-amarelo-claro:`Data da inclusão do registro da Ata no PNCP.`
+   * - :destaque-amarelo-claro:`1.12`
+     - :destaque-amarelo-claro:`dataAtualizacao`
+     - :destaque-amarelo-claro:`Data`
+     - :destaque-amarelo-claro:`Data da última atualização do registro da Ata.`
+   * - :destaque-amarelo-claro:`1.13`
+     - :destaque-amarelo-claro:`dataAtualizacaoGlobal`
+     - :destaque-amarelo-claro:`Data`
+     - :destaque-amarelo-claro:`Data da última atualização global do registro da Ata.`
+   * - :destaque-amarelo-claro:`1.14`
+     - :destaque-amarelo-claro:`usuario`
+     - :destaque-amarelo-claro:`String`
+     - :destaque-amarelo-claro:`Nome do sistema usuário (Sistema de Contratações Públicas) que publicou a Ata.`
+   * - :destaque-amarelo-claro:`1.15`
+     - :destaque-amarelo-claro:`objetoContratacao`
+     - :destaque-amarelo-claro:`String`
+     - :destaque-amarelo-claro:`Descrição do objeto referente à Ata.`
+   * - :destaque-amarelo-claro:`1.16`
+     - :destaque-amarelo-claro:`cnpjOrgao`
+     - :destaque-amarelo-claro:`String`
+     - :destaque-amarelo-claro:`CNPJ do órgão referente à Ata.`
+   * - :destaque-amarelo-claro:`1.17`
+     - :destaque-amarelo-claro:`nomeOrgao`
+     - :destaque-amarelo-claro:`String`
+     - :destaque-amarelo-claro:`Razão social do órgão referente à Ata.`
+   * - :destaque-amarelo-claro:`1.18`
+     - :destaque-amarelo-claro:`cnpjOrgaoSubrogado`
+     - :destaque-amarelo-claro:`String`
+     - :destaque-amarelo-claro:`CNPJ do órgão subrogado referente à Ata.`
+   * - :destaque-amarelo-claro:`1.19`
+     - :destaque-amarelo-claro:`nomeOrgaoSubrogado`
+     - :destaque-amarelo-claro:`String`
+     - :destaque-amarelo-claro:`Razão social do órgão subrogado referente à Ata.`
+   * - :destaque-amarelo-claro:`1.20`
+     - :destaque-amarelo-claro:`codigoUnidadeOrgao`
+     - :destaque-amarelo-claro:`String`
+     - :destaque-amarelo-claro:`Código da unidade administrativa do órgão referente à Ata.`
+   * - :destaque-amarelo-claro:`1.21`
+     - :destaque-amarelo-claro:`nomeUnidadeOrgao`
+     - :destaque-amarelo-claro:`String`
+     - :destaque-amarelo-claro:`Nome da unidade administrativa do órgão referente à Ata.`
+   * - :destaque-amarelo-claro:`1.22`
+     - :destaque-amarelo-claro:`codigoUnidadeOrgaoSubrogado`
+     - :destaque-amarelo-claro:`string`
+     - :destaque-amarelo-claro:`Código da unidade administrativa subrogada do órgão subrogado referente à Ata.`
+   * - :destaque-amarelo-claro:`1.23`
+     - :destaque-amarelo-claro:`nomeUnidadeOrgaoSubrogado`
+     - :destaque-amarelo-claro:`String`
+     - :destaque-amarelo-claro:`Nome da unidade administrativa subrogada do órgão subrogado referente à Ata.`
+   * - :destaque-amarelo-claro:`1.24`
+     - :destaque-amarelo-claro:`possibilidadeAdesao`
+     - :destaque-amarelo-claro:`Booleano`
+     - :destaque-amarelo-claro:`Indicador se a Ata permite adesão de não participantes (False = Não / True = Sim).`
+   * - :destaque-amarelo-claro:`2`
+     - :destaque-amarelo-claro:`totalRegistros`
+     - :destaque-amarelo-claro:`Inteiro`
+     - :destaque-amarelo-claro:`Total de registros de Atas encontrados.`
+   * - :destaque-amarelo-claro:`3`
+     - :destaque-amarelo-claro:`totalPaginas`
+     - :destaque-amarelo-claro:`Inteiro`
+     - :destaque-amarelo-claro:`Total de páginas.`
+   * - :destaque-amarelo-claro:`4`
+     - :destaque-amarelo-claro:`numeroPagina`
+     - :destaque-amarelo-claro:`Inteiro`
+     - :destaque-amarelo-claro:`Número da página consultada.`
+   * - :destaque-amarelo-claro:`5`
+     - :destaque-amarelo-claro:`paginasRestantes`
+     - :destaque-amarelo-claro:`Inteiro`
+     - :destaque-amarelo-claro:`Quantidade de páginas restantes.`
+   * - :destaque-amarelo-claro:`6`
+     - :destaque-amarelo-claro:`empty`
+     - :destaque-amarelo-claro:`Booleano`
+     - :destaque-amarelo-claro:`Indica se o retorno está vazio.`
+
 Códigos de Retorno
 ~~~~~~~~~~~~~~~~~~
 
@@ -233,18 +233,18 @@ Códigos de Retorno
    * - Código HTTP
      - Mensagem
      - Tipo
-   * - 200
-     - OK
-     - Sucesso
-   * - 204
-     - No Content
-     - Sucesso
-   * - 400
-     - Bad Request
-     - Erro
-   * - 422
-     - Unprocessable Entity
-     - Erro
-   * - 500
-     - Internal Server Error
-     - Erro
+   * - :destaque-amarelo-claro:`200`
+     - :destaque-amarelo-claro:`OK`
+     - :destaque-amarelo-claro:`Sucesso`
+   * - :destaque-amarelo-claro:`204`
+     - :destaque-amarelo-claro:`No Content`
+     - :destaque-amarelo-claro:`Sucesso`
+   * - :destaque-amarelo-claro:`400`
+     - :destaque-amarelo-claro:`Bad Request`
+     - :destaque-amarelo-claro:`Erro`
+   * - :destaque-amarelo-claro:`422`
+     - :destaque-amarelo-claro:`Unprocessable Entity`
+     - :destaque-amarelo-claro:`Erro`
+   * - :destaque-amarelo-claro:`500`
+     - :destaque-amarelo-claro:`Internal Server Error`
+     - :destaque-amarelo-claro:`Erro`
