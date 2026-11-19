@@ -21,6 +21,7 @@ Exemplo Requisição (cURL)
 
 .. code-block:: bash
    :linenos:
+   :emphasize-lines: 1-3
 
    curl -X 'GET' \
      'https://pncp.gov.br/api/consulta/v1/pca/atualizacao \
@@ -44,36 +45,36 @@ Dados de Entrada
      - Tipo
      - Obrigatório
      - Descrição
-   * - 1
-     - dataInicio
-     - Data 
-     - Sim
-     - Data início
-   * - 2
-     - dataFim
-     - Data 
-     - Sim
-     - Data fim
-   * - 3
-     - cnpj
-     - Texto 
-     - Não
-     - CNPJ do órgão
-   * - 4
-     - codigoUnidade
-     - Texto 
-     - Não
-     - Código da unidade do órgão    
-   * - 5
-     - pagina
-     - Inteiro 
-     - Sim
-     - Número da página que se deseja obter os dados.
-   * - 6
-     - tamanhoPagina
-     - Inteiro 
-     - Não
-     - Por padrão cada página contém no máximo 500 registros, no entanto o tamanho de registros em cada página pode ser ajustado (até o limite de 500 registros) com vistas a tornar a entrega de dados mais rápida.
+   * - :destaque-amarelo-claro:`1`
+     - :destaque-amarelo-claro:`dataInicio`
+     - :destaque-amarelo-claro:`Data`
+     - :destaque-amarelo-claro:`Sim`
+     - :destaque-amarelo-claro:`Data início`
+   * - :destaque-amarelo-claro:`2`
+     - :destaque-amarelo-claro:`dataFim`
+     - :destaque-amarelo-claro:`Data`
+     - :destaque-amarelo-claro:`Sim`
+     - :destaque-amarelo-claro:`Data fim`
+   * - :destaque-amarelo-claro:`3`
+     - :destaque-amarelo-claro:`cnpj`
+     - :destaque-amarelo-claro:`Texto`
+     - :destaque-amarelo-claro:`Não`
+     - :destaque-amarelo-claro:`CNPJ do órgão`
+   * - :destaque-amarelo-claro:`4`
+     - :destaque-amarelo-claro:`codigoUnidade`
+     - :destaque-amarelo-claro:`Texto`
+     - :destaque-amarelo-claro:`Não`
+     - :destaque-amarelo-claro:`Código da unidade do órgão`
+   * - :destaque-amarelo-claro:`5`
+     - :destaque-amarelo-claro:`pagina`
+     - :destaque-amarelo-claro:`Inteiro`
+     - :destaque-amarelo-claro:`Sim`
+     - :destaque-amarelo-claro:`Número da página que se deseja obter os dados.`
+   * - :destaque-amarelo-claro:`6`
+     - :destaque-amarelo-claro:`tamanhoPagina`
+     - :destaque-amarelo-claro:`Inteiro`
+     - :destaque-amarelo-claro:`Não`
+     - :destaque-amarelo-claro:`Por padrão cada página contém no máximo 500 registros, no entanto o tamanho de registros em cada página pode ser ajustado (até o limite de 500 registros) com vistas a tornar a entrega de dados mais rápida.`
 
 Dados de retorno
 ~~~~~~~~~~~~~~~~
@@ -89,146 +90,146 @@ Dados de retorno
      - Tipo
      - Descrição
 
-   * - 1
-     - codigoUnidade
-     - Texto
-     - Código da unidade administrativa responsável pelo PCA.
-   * - 2
-     - nomeUnidade
-     - Texto
-     - Nome da unidade administrativa responsável pelo PCA.
-   * - 3
-     - anoPca
-     - Inteiro
-     - Ano de referência do Plano de Contratações Anual.
-   * - 4
-     - orgaoEntidadeRazaoSocial
-     - Texto
-     - Razão social do órgão ou entidade responsável pelo PCA.
-   * - 5
-     - orgaoEntidadeCnpj
-     - Texto
-     - CNPJ do órgão ou entidade responsável pelo PCA.
-   * - 5
-     - idPcaPncp
-     - Texto
-     - Identificador do PCA no PNCP.
-   * - 6
-     - dataPublicacaoPNCP
-     - Data/Hora
-     - Data da publicação do PCA no PNCP.
-   * - 7
-     - dataAtualizacaoGlobalPCA
-     - Data/Hora
-     - Data da última atualização global do PCA.
-   * - 8
-     - itens
-     - Lista
-     - Lista de itens do PCA.
-   * - 8.1
-     - descricaoItem
-     - Texto
-     - Descrição do item do PCA.
-   * - 8.2
-     - categoriaItemPcaNome
-     - Texto
-     - Nome da categoria do item do PCA.
-   * - 8.3
-     - classificacaoCatalogoId
-     - Inteiro
-     - Código identificador da classificação do catálogo.
-   * - 8.4
-     - nomeClassificacaoCatalogo
-     - Texto
-     - Nome da classificação do catálogo.
-   * - 8.5
-     - quantidadeEstimada
-     - Número
-     - Quantidade estimada do item.
-   * - 8.6
-     - numeroItem
-     - Inteiro
-     - Número do item no PCA.
-   * - 8.7
-     - valorUnitario
-     - Número
-     - Valor unitário estimado do item.
-   * - 8.8
-     - valorTotal
-     - Número
-     - Valor total estimado do item.
-   * - 8.9
-     - dataInclusao
-     - Data/Hora
-     - Data de inclusão do item no PCA.
-   * - 8.10
-     - dataAtualizacao
-     - Data/Hora
-     - Data da última atualização do item.
-   * - 8.11
-     - classificacaoSuperiorNome
-     - Texto
-     - Nome da classificação superior.
-   * - 8.12
-     - pdmCodigo
-     - Texto
-     - Código do PDM.
-   * - 8.13
-     - pdmDescricao
-     - Texto
-     - Descrição do PDM.
-   * - 8.14
-     - codigoItem
-     - Texto
-     - Código do item.
-   * - 8.15
-     - unidadeFornecimento
-     - Texto
-     - Unidade de fornecimento do item.
-   * - 8.16
-     - valorOrcamentoExercicio
-     - Número
-     - Valor previsto para o exercício orçamentário.
-   * - 8.17
-     - unidadeRequisitante
-     - Texto
-     - Unidade requisitante do item.
-   * - 8.18
-     - dataDesejada
-     - Data
-     - Data desejada para a contratação.
-   * - 8.19
-     - grupoContratacaoCodigo
-     - Texto
-     - Código do grupo de contratação.
-   * - 8.20
-     - grupoContratacaoNome
-     - Texto
-     - Nome do grupo de contratação.
-   * - 8.21
-     - classificacaoSuperiorCodigo
-     - Texto
-     - Código da classificação superior.
-   * - 9
-     - totalRegistros
-     - Inteiro
-     - Total de registros encontrados.
-   * - 10
-     - totalPaginas
-     - Inteiro
-     - Total de páginas necessárias para a obtenção de todos os registros.
-   * - 11
-     - numeroPagina
-     - Inteiro
-     - Número da página que a consulta foi realizada.
-   * - 12
-     - paginasRestantes
-     - Inteiro
-     - Total de páginas restantes.
-   * - 13
-     - empty
-     - Booleano
-     - Indicador se o atributo data está vazio.
+   * - :destaque-amarelo-claro:`1`
+     - :destaque-amarelo-claro:`codigoUnidade`
+     - :destaque-amarelo-claro:`Texto`
+     - :destaque-amarelo-claro:`Código da unidade administrativa responsável pelo PCA.`
+   * - :destaque-amarelo-claro:`2`
+     - :destaque-amarelo-claro:`nomeUnidade`
+     - :destaque-amarelo-claro:`Texto`
+     - :destaque-amarelo-claro:`Nome da unidade administrativa responsável pelo PCA.`
+   * - :destaque-amarelo-claro:`3`
+     - :destaque-amarelo-claro:`anoPca`
+     - :destaque-amarelo-claro:`Inteiro`
+     - :destaque-amarelo-claro:`Ano de referência do Plano de Contratações Anual.`
+   * - :destaque-amarelo-claro:`4`
+     - :destaque-amarelo-claro:`orgaoEntidadeRazaoSocial`
+     - :destaque-amarelo-claro:`Texto`
+     - :destaque-amarelo-claro:`Razão social do órgão ou entidade responsável pelo PCA.`
+   * - :destaque-amarelo-claro:`5`
+     - :destaque-amarelo-claro:`orgaoEntidadeCnpj`
+     - :destaque-amarelo-claro:`Texto`
+     - :destaque-amarelo-claro:`CNPJ do órgão ou entidade responsável pelo PCA.`
+   * - :destaque-amarelo-claro:`5`
+     - :destaque-amarelo-claro:`idPcaPncp`
+     - :destaque-amarelo-claro:`Texto`
+     - :destaque-amarelo-claro:`Identificador do PCA no PNCP.`
+   * - :destaque-amarelo-claro:`6`
+     - :destaque-amarelo-claro:`dataPublicacaoPNCP`
+     - :destaque-amarelo-claro:`Data/Hora`
+     - :destaque-amarelo-claro:`Data da publicação do PCA no PNCP.`
+   * - :destaque-amarelo-claro:`7`
+     - :destaque-amarelo-claro:`dataAtualizacaoGlobalPCA`
+     - :destaque-amarelo-claro:`Data/Hora`
+     - :destaque-amarelo-claro:`Data da última atualização global do PCA.`
+   * - :destaque-amarelo-claro:`8`
+     - :destaque-amarelo-claro:`itens`
+     - :destaque-amarelo-claro:`Lista`
+     - :destaque-amarelo-claro:`Lista de itens do PCA.`
+   * - :destaque-amarelo-claro:`8.1`
+     - :destaque-amarelo-claro:`descricaoItem`
+     - :destaque-amarelo-claro:`Texto`
+     - :destaque-amarelo-claro:`Descrição do item do PCA.`
+   * - :destaque-amarelo-claro:`8.2`
+     - :destaque-amarelo-claro:`categoriaItemPcaNome`
+     - :destaque-amarelo-claro:`Texto`
+     - :destaque-amarelo-claro:`Nome da categoria do item do PCA.`
+   * - :destaque-amarelo-claro:`8.3`
+     - :destaque-amarelo-claro:`classificacaoCatalogoId`
+     - :destaque-amarelo-claro:`Inteiro`
+     - :destaque-amarelo-claro:`Código identificador da classificação do catálogo.`
+   * - :destaque-amarelo-claro:`8.4`
+     - :destaque-amarelo-claro:`nomeClassificacaoCatalogo`
+     - :destaque-amarelo-claro:`Texto`
+     - :destaque-amarelo-claro:`Nome da classificação do catálogo.`
+   * - :destaque-amarelo-claro:`8.5`
+     - :destaque-amarelo-claro:`quantidadeEstimada`
+     - :destaque-amarelo-claro:`Número`
+     - :destaque-amarelo-claro:`Quantidade estimada do item.`
+   * - :destaque-amarelo-claro:`8.6`
+     - :destaque-amarelo-claro:`numeroItem`
+     - :destaque-amarelo-claro:`Inteiro`
+     - :destaque-amarelo-claro:`Número do item no PCA.`
+   * - :destaque-amarelo-claro:`8.7`
+     - :destaque-amarelo-claro:`valorUnitario`
+     - :destaque-amarelo-claro:`Número`
+     - :destaque-amarelo-claro:`Valor unitário estimado do item.`
+   * - :destaque-amarelo-claro:`8.8`
+     - :destaque-amarelo-claro:`valorTotal`
+     - :destaque-amarelo-claro:`Número`
+     - :destaque-amarelo-claro:`Valor total estimado do item.`
+   * - :destaque-amarelo-claro:`8.9`
+     - :destaque-amarelo-claro:`dataInclusao`
+     - :destaque-amarelo-claro:`Data/Hora`
+     - :destaque-amarelo-claro:`Data de inclusão do item no PCA.`
+   * - :destaque-amarelo-claro:`8.10`
+     - :destaque-amarelo-claro:`dataAtualizacao`
+     - :destaque-amarelo-claro:`Data/Hora`
+     - :destaque-amarelo-claro:`Data da última atualização do item.`
+   * - :destaque-amarelo-claro:`8.11`
+     - :destaque-amarelo-claro:`classificacaoSuperiorNome`
+     - :destaque-amarelo-claro:`Texto`
+     - :destaque-amarelo-claro:`Nome da classificação superior.`
+   * - :destaque-amarelo-claro:`8.12`
+     - :destaque-amarelo-claro:`pdmCodigo`
+     - :destaque-amarelo-claro:`Texto`
+     - :destaque-amarelo-claro:`Código do PDM.`
+   * - :destaque-amarelo-claro:`8.13`
+     - :destaque-amarelo-claro:`pdmDescricao`
+     - :destaque-amarelo-claro:`Texto`
+     - :destaque-amarelo-claro:`Descrição do PDM.`
+   * - :destaque-amarelo-claro:`8.14`
+     - :destaque-amarelo-claro:`codigoItem`
+     - :destaque-amarelo-claro:`Texto`
+     - :destaque-amarelo-claro:`Código do item.`
+   * - :destaque-amarelo-claro:`8.15`
+     - :destaque-amarelo-claro:`unidadeFornecimento`
+     - :destaque-amarelo-claro:`Texto`
+     - :destaque-amarelo-claro:`Unidade de fornecimento do item.`
+   * - :destaque-amarelo-claro:`8.16`
+     - :destaque-amarelo-claro:`valorOrcamentoExercicio`
+     - :destaque-amarelo-claro:`Número`
+     - :destaque-amarelo-claro:`Valor previsto para o exercício orçamentário.`
+   * - :destaque-amarelo-claro:`8.17`
+     - :destaque-amarelo-claro:`unidadeRequisitante`
+     - :destaque-amarelo-claro:`Texto`
+     - :destaque-amarelo-claro:`Unidade requisitante do item.`
+   * - :destaque-amarelo-claro:`8.18`
+     - :destaque-amarelo-claro:`dataDesejada`
+     - :destaque-amarelo-claro:`Data`
+     - :destaque-amarelo-claro:`Data desejada para a contratação.`
+   * - :destaque-amarelo-claro:`8.19`
+     - :destaque-amarelo-claro:`grupoContratacaoCodigo`
+     - :destaque-amarelo-claro:`Texto`
+     - :destaque-amarelo-claro:`Código do grupo de contratação.`
+   * - :destaque-amarelo-claro:`8.20`
+     - :destaque-amarelo-claro:`grupoContratacaoNome`
+     - :destaque-amarelo-claro:`Texto`
+     - :destaque-amarelo-claro:`Nome do grupo de contratação.`
+   * - :destaque-amarelo-claro:`8.21`
+     - :destaque-amarelo-claro:`classificacaoSuperiorCodigo`
+     - :destaque-amarelo-claro:`Texto`
+     - :destaque-amarelo-claro:`Código da classificação superior.`
+   * - :destaque-amarelo-claro:`9`
+     - :destaque-amarelo-claro:`totalRegistros`
+     - :destaque-amarelo-claro:`Inteiro`
+     - :destaque-amarelo-claro:`Total de registros encontrados.`
+   * - :destaque-amarelo-claro:`10`
+     - :destaque-amarelo-claro:`totalPaginas`
+     - :destaque-amarelo-claro:`Inteiro`
+     - :destaque-amarelo-claro:`Total de páginas necessárias para a obtenção de todos os registros.`
+   * - :destaque-amarelo-claro:`11`
+     - :destaque-amarelo-claro:`numeroPagina`
+     - :destaque-amarelo-claro:`Inteiro`
+     - :destaque-amarelo-claro:`Número da página que a consulta foi realizada.`
+   * - :destaque-amarelo-claro:`12`
+     - :destaque-amarelo-claro:`paginasRestantes`
+     - :destaque-amarelo-claro:`Inteiro`
+     - :destaque-amarelo-claro:`Total de páginas restantes.`
+   * - :destaque-amarelo-claro:`13`
+     - :destaque-amarelo-claro:`empty`
+     - :destaque-amarelo-claro:`Booleano`
+     - :destaque-amarelo-claro:`Indicador se o atributo data está vazio.`
 
 Códigos de Retorno
 ~~~~~~~~~~~~~~~~~~
@@ -241,18 +242,18 @@ Códigos de Retorno
    * - Código HTTP
      - Mensagem
      - Tipo
-   * - 200
-     - OK
-     - Sucesso
-   * - 204
-     - No Content
-     - Sucesso
-   * - 400
-     - Bad Request
-     - Erro
-   * - 422
-     - Unprocessable Entity
-     - Erro
-   * - 500
-     - Internal Server Error
-     - Erro
+   * - :destaque-amarelo-claro:`200`
+     - :destaque-amarelo-claro:`OK`
+     - :destaque-amarelo-claro:`Sucesso`
+   * - :destaque-amarelo-claro:`204`
+     - :destaque-amarelo-claro:`No Content`
+     - :destaque-amarelo-claro:`Sucesso`
+   * - :destaque-amarelo-claro:`400`
+     - :destaque-amarelo-claro:`Bad Request`
+     - :destaque-amarelo-claro:`Erro`
+   * - :destaque-amarelo-claro:`422`
+     - :destaque-amarelo-claro:`Unprocessable Entity`
+     - :destaque-amarelo-claro:`Erro`
+   * - :destaque-amarelo-claro:`500`
+     - :destaque-amarelo-claro:`Internal Server Error`
+     - :destaque-amarelo-claro:`Erro`
