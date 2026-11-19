@@ -21,6 +21,7 @@ Exemplo de Payload
 
 .. code-block:: text
    :linenos:
+   :emphasize-lines: 1
 
    Não se aplica.
 
@@ -29,6 +30,7 @@ Exemplo Requisição (cURL)
 
 .. code-block:: bash
    :linenos:
+   :emphasize-lines: 1-3
 
    curl -X 'GET' \
      'https://pncp.gov.br/api/consulta/v1/atas/atualizacao?dataInicial=20260101&dataFinal=20260101&pagina=2' \
